@@ -11,15 +11,15 @@ const Header = () => {
     return (
         <header>
             <nav className='container'>
-                <Link to='/' style={{ fontSize: '1.5rem', fontWeight: 'bold' }}>
+                <Link to='/' style={{ fontSize: '1.8rem', fontWeight: '800', letterSpacing: '1px' }}>
                     ProShop
                 </Link>
                 <ul>
                     <li>
-                        <Link to='/cart'>
-                            <FaShoppingCart /> Cart
+                        <Link to='/cart' style={{ display: 'flex', alignItems: 'center' }}>
+                            <FaShoppingCart size={20} /> <span style={{ marginLeft: '5px' }}>Cart</span>
                             {cartItems.length > 0 && (
-                                <span style={{ marginLeft: '5px', background: 'red', borderRadius: '50%', padding: '2px 6px', fontSize: '0.8rem' }}>
+                                <span style={{ marginLeft: '5px', background: '#ffc107', color: '#000', borderRadius: '50%', padding: '2px 6px', fontSize: '0.75rem', fontWeight: 'bold' }}>
                                     {cartItems.reduce((acc, item) => acc + Number(item.qty), 0)}
                                 </span>
                             )}
@@ -28,9 +28,8 @@ const Header = () => {
                     {user ? (
                         <>
                             <li style={{ position: 'relative', display: 'inline-block' }}>
-                                {/* Simple Dropdown Logic could be added here, simplified for MVP */}
-                                <span>Hello, {user.name}</span>
-                                <button onClick={logout} style={{ marginLeft: '10px', background: 'none', border: 'none', color: 'white', cursor: 'pointer' }}>
+                                <span style={{ marginRight: '10px', fontWeight: '500' }}>Hello, {user.name}</span>
+                                <button onClick={logout} className='btn' style={{ padding: '5px 10px', fontSize: '0.8rem' }}>
                                     Logout
                                 </button>
                             </li>
@@ -43,8 +42,8 @@ const Header = () => {
                         </>
                     ) : (
                         <li>
-                            <Link to='/login'>
-                                <FaUser /> Sign In
+                            <Link to='/login' style={{ display: 'flex', alignItems: 'center' }}>
+                                <FaUser size={18} /> <span style={{ marginLeft: '5px' }}>Sign In</span>
                             </Link>
                         </li>
                     )}
