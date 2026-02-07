@@ -1,0 +1,6 @@
+# Proxy API requests to the Render backend
+/api/*  https://ecommerce-mvp-api.onrender.com/api/:splat  200
+/uploads/*  https://ecommerce-mvp-api.onrender.com/uploads/:splat  200
+
+# Handle Single Page App (SPA) routing - valid for React Router
+/*  /index.html  200
