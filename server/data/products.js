@@ -1,7 +1,8 @@
 const products = [
+    // ELECTRONICS (1-10)
     {
         name: 'AirPods Pro (2nd Gen)',
-        image: 'https://images.unsplash.com/photo-1610492314415-33433568c819?q=80&w=400&h=400&auto=format&fit=crop',
+        image: 'https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb?q=80&w=400&h=400&auto=format&fit=crop',
         description: 'Active Noise Cancellation and Transparency mode.',
         brand: 'Apple',
         category: 'Electronics',
@@ -34,7 +35,7 @@ const products = [
     },
     {
         name: 'PlayStation 5 Console',
-        image: 'https://images.unsplash.com/photo-1606813907291-d86efa9b94db?q=80&w=400&h=400&auto=format&fit=crop',
+        image: 'https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?q=80&w=400&h=400&auto=format&fit=crop',
         description: 'Ultra-high speed SSD and ray tracing support.',
         brand: 'Sony',
         category: 'Electronics',
@@ -45,7 +46,7 @@ const products = [
     },
     {
         name: 'Nintendo Switch OLED',
-        image: 'https://images.unsplash.com/photo-1578303512597-814706287595?q=80&w=400&h=400&auto=format&fit=crop',
+        image: 'https://images.unsplash.com/photo-1612036782180-6f0b6cd846fe?q=80&w=400&h=400&auto=format&fit=crop',
         description: 'Vibrant 7-inch OLED screen.',
         brand: 'Nintendo',
         category: 'Electronics',
@@ -67,7 +68,7 @@ const products = [
     },
     {
         name: 'Logitech MX Master 3S',
-        image: 'https://images.unsplash.com/photo-1634128221889-82ed6efdfac3?q=80&w=400&h=400&auto=format&fit=crop',
+        image: 'https://images.unsplash.com/photo-1629429464245-12d8a39d841e?q=80&w=400&h=400&auto=format&fit=crop',
         description: 'Precise wireless mouse for creators.',
         brand: 'Logitech',
         category: 'Electronics',
@@ -100,7 +101,7 @@ const products = [
     },
     {
         name: 'DJI Mini 3 Pro',
-        image: 'https://images.unsplash.com/photo-1473968512647-3e447244af8f?q=80&w=400&h=400&auto=format&fit=crop',
+        image: 'https://images.unsplash.com/photo-1508614589041-39d1bcc7b0ef?q=80&w=400&h=400&auto=format&fit=crop',
         description: 'Ultralight drone with 4K HDR camera.',
         brand: 'DJI',
         category: 'Electronics',
@@ -109,6 +110,8 @@ const products = [
         rating: 4.8,
         numReviews: 31
     },
+
+    // ACCESSORIES (11-20)
     {
         name: 'Kindle Paperwhite',
         image: 'https://images.unsplash.com/photo-1592492159418-39f319320569?q=80&w=400&h=400&auto=format&fit=crop',
@@ -133,7 +136,7 @@ const products = [
     },
     {
         name: 'Hydro Flask 32oz',
-        image: 'https://images.unsplash.com/photo-1602143393494-118844838634?q=80&w=400&h=400&auto=format&fit=crop',
+        image: 'https://images.unsplash.com/photo-1605342129063-e316d20367cb?q=80&w=400&h=400&auto=format&fit=crop',
         description: 'Insulated stainless steel water bottle.',
         brand: 'Hydro Flask',
         category: 'Accessories',
@@ -155,7 +158,7 @@ const products = [
     },
     {
         name: 'Apple Watch Ultra 2',
-        image: 'https://images.unsplash.com/photo-1434493566906-df97df77687a?q=80&w=400&h=400&auto=format&fit=crop',
+        image: 'https://images.unsplash.com/photo-1551816230-ef5deaed4a26?q=80&w=400&h=400&auto=format&fit=crop',
         description: 'For endurance and exploration.',
         brand: 'Apple',
         category: 'Accessories',
@@ -188,7 +191,7 @@ const products = [
     },
     {
         name: 'Anker 737 Power Bank',
-        image: 'https://images.unsplash.com/photo-1619131433010-85f214639a08?q=80&w=400&h=400&auto=format&fit=crop',
+        image: 'https://images.unsplash.com/photo-1618414465744-2a621743048b?q=80&w=400&h=400&auto=format&fit=crop',
         description: '140W fast charge 24,000mAh bank.',
         brand: 'Anker',
         category: 'Accessories',
@@ -210,7 +213,7 @@ const products = [
     },
     {
         name: 'Matte Grey Desktop Mat',
-        image: 'https://images.unsplash.com/photo-1615526675159-27cd0f9a2e37?q=80&w=400&h=400&auto=format&fit=crop',
+        image: 'https://images.unsplash.com/photo-1616627741699-2715d0bf0a99?q=80&w=400&h=400&auto=format&fit=crop',
         description: 'Full-size minimalist felt desk mat.',
         brand: 'Generic',
         category: 'Accessories',
@@ -219,6 +222,8 @@ const products = [
         rating: 4.3,
         numReviews: 50
     },
+
+    // APPLIANCES & HOME (21-30)
     {
         name: 'Dyson V15 Detect',
         image: 'https://images.unsplash.com/photo-1558317374-067fb5f30001?q=80&w=400&h=400&auto=format&fit=crop',
@@ -298,7 +303,7 @@ const products = [
     },
     {
         name: 'Timbuk2 Command Messenger',
-        image: 'https://images.unsplash.com/photo-1553062407-98eeb94c6a62?q=80&w=400&h=400&auto=format&fit=crop',
+        image: 'https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=400&h=400&auto=format&fit=crop',
         description: 'TSA-friendly laptop messenger bag.',
         brand: 'Timbuk2',
         category: 'Accessories',
@@ -329,6 +334,8 @@ const products = [
         rating: 4.9,
         numReviews: 180
     },
+
+    // FASHION & LIFESTYLE (31-40)
     {
         name: 'Ray-Ban Wayfarer Classic',
         image: 'https://images.unsplash.com/photo-1511499767390-a75c20389748?q=80&w=400&h=400&auto=format&fit=crop',
@@ -439,6 +446,8 @@ const products = [
         rating: 4.6,
         numReviews: 120
     },
+
+    // MORE ELECTRONICS & GADGETS (41-50)
     {
         name: 'Razer DeathAdder V3 Pro',
         image: 'https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?q=80&w=400&h=400&auto=format&fit=crop',

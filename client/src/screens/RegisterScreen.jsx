@@ -39,7 +39,7 @@ const RegisterScreen = () => {
 
     return (
         <div className='auth-page-wrapper'>
-            <div style={{ maxWidth: '400px', margin: '0 auto', background: 'rgba(255, 255, 255, 0.9)', padding: '2rem', borderRadius: '10px', boxShadow: '0 10px 30px rgba(0,0,0,0.5)' }}>
+            <div className='auth-form-container'>
                 <h1>Sign Up</h1>
                 {message && <Message variant='danger'>{message}</Message>}
                 {error && <Message variant='danger'>{error}</Message>}
