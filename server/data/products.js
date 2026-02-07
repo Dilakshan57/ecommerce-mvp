@@ -1,8 +1,7 @@
 const products = [
-    // ELECTRONICS (1-10)
     {
         name: 'AirPods Pro (2nd Gen)',
-        image: 'https://images.unsplash.com/photo-1588423770674-f2855ee476e7?q=80&w=400&h=400&auto=format&fit=crop',
+        image: 'https://images.unsplash.com/photo-1610492314415-33433568c819?q=80&w=400&h=400&auto=format&fit=crop',
         description: 'Active Noise Cancellation and Transparency mode.',
         brand: 'Apple',
         category: 'Electronics',
@@ -13,7 +12,7 @@ const products = [
     },
     {
         name: 'iPhone 15 Pro Max',
-        image: 'https://images.unsplash.com/photo-1696446701796-da61225697cc?q=80&w=400&h=400&auto=format&fit=crop',
+        image: 'https://images.unsplash.com/photo-1695048133142-1a20484d2569?q=80&w=400&h=400&auto=format&fit=crop',
         description: 'Titanium design with 5x Telephoto camera.',
         brand: 'Apple',
         category: 'Electronics',
@@ -57,7 +56,7 @@ const products = [
     },
     {
         name: 'Samsung 27" Odyssey G7',
-        image: 'https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=400&h=400&auto=format&fit=crop',
+        image: 'https://images.unsplash.com/photo-1616763355548-1b606f439f86?q=80&w=400&h=400&auto=format&fit=crop',
         description: '1000R curved gaming monitor.',
         brand: 'Samsung',
         category: 'Electronics',
@@ -68,7 +67,7 @@ const products = [
     },
     {
         name: 'Logitech MX Master 3S',
-        image: 'https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?q=80&w=400&h=400&auto=format&fit=crop',
+        image: 'https://images.unsplash.com/photo-1634128221889-82ed6efdfac3?q=80&w=400&h=400&auto=format&fit=crop',
         description: 'Precise wireless mouse for creators.',
         brand: 'Logitech',
         category: 'Electronics',
@@ -79,7 +78,7 @@ const products = [
     },
     {
         name: 'Dell XPS 13 9315',
-        image: 'https://images.unsplash.com/photo-1593642632823-8f785ba67e45?q=80&w=400&h=400&auto=format&fit=crop',
+        image: 'https://images.unsplash.com/photo-1593642702821-c8da6771f0c6?q=80&w=400&h=400&auto=format&fit=crop',
         description: 'Lightweight ultrabook with InfinityEdge display.',
         brand: 'Dell',
         category: 'Electronics',
@@ -90,7 +89,7 @@ const products = [
     },
     {
         name: 'Canon EOS R5',
-        image: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?q=80&w=400&h=400&auto=format&fit=crop',
+        image: 'https://images.unsplash.com/photo-1502920917128-1aa500764cbd?q=80&w=400&h=400&auto=format&fit=crop',
         description: 'Professional-grade mirrorless camera.',
         brand: 'Canon',
         category: 'Electronics',
@@ -101,7 +100,7 @@ const products = [
     },
     {
         name: 'DJI Mini 3 Pro',
-        image: 'https://images.unsplash.com/photo-1579829366248-204fe8413f31?q=80&w=400&h=400&auto=format&fit=crop',
+        image: 'https://images.unsplash.com/photo-1473968512647-3e447244af8f?q=80&w=400&h=400&auto=format&fit=crop',
         description: 'Ultralight drone with 4K HDR camera.',
         brand: 'DJI',
         category: 'Electronics',
@@ -110,11 +109,9 @@ const products = [
         rating: 4.8,
         numReviews: 31
     },
-
-    // ACCESSORIES (11-20)
     {
         name: 'Kindle Paperwhite',
-        image: 'https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?q=80&w=400&h=400&auto=format&fit=crop',
+        image: 'https://images.unsplash.com/photo-1592492159418-39f319320569?q=80&w=400&h=400&auto=format&fit=crop',
         description: '6.8” display and adjustable warm light.',
         brand: 'Amazon',
         category: 'Accessories',
@@ -125,7 +122,7 @@ const products = [
     },
     {
         name: 'Mechanical Keyboard Blue',
-        image: 'https://images.unsplash.com/photo-1595225476474-87563907a212?q=80&w=400&h=400&auto=format&fit=crop',
+        image: 'https://images.unsplash.com/photo-1541140134513-85a161dc4a00?q=80&w=400&h=400&auto=format&fit=crop',
         description: 'Tactile blue switches with RGB.',
         brand: 'Keychron',
         category: 'Accessories',
@@ -158,7 +155,7 @@ const products = [
     },
     {
         name: 'Apple Watch Ultra 2',
-        image: 'https://images.unsplash.com/photo-1546868871-7041f2a55e12?q=80&w=400&h=400&auto=format&fit=crop',
+        image: 'https://images.unsplash.com/photo-1434493566906-df97df77687a?q=80&w=400&h=400&auto=format&fit=crop',
         description: 'For endurance and exploration.',
         brand: 'Apple',
         category: 'Accessories',
@@ -202,7 +199,7 @@ const products = [
     },
     {
         name: 'Samsung T7 Shield 2TB',
-        image: 'https://images.unsplash.com/photo-1544099858-75feeb57f0ce?q=80&w=400&h=400&auto=format&fit=crop',
+        image: 'https://images.unsplash.com/photo-1583394838336-acd977736f90?q=80&w=400&h=400&auto=format&fit=crop',
         description: 'Rugged portable SSD with fast speeds.',
         brand: 'Samsung',
         category: 'Accessories',
@@ -222,8 +219,6 @@ const products = [
         rating: 4.3,
         numReviews: 50
     },
-
-    // APPLIANCES & HOME (21-30)
     {
         name: 'Dyson V15 Detect',
         image: 'https://images.unsplash.com/photo-1558317374-067fb5f30001?q=80&w=400&h=400&auto=format&fit=crop',
@@ -303,7 +298,7 @@ const products = [
     },
     {
         name: 'Timbuk2 Command Messenger',
-        image: 'https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=400&h=400&auto=format&fit=crop',
+        image: 'https://images.unsplash.com/photo-1553062407-98eeb94c6a62?q=80&w=400&h=400&auto=format&fit=crop',
         description: 'TSA-friendly laptop messenger bag.',
         brand: 'Timbuk2',
         category: 'Accessories',
@@ -334,8 +329,6 @@ const products = [
         rating: 4.9,
         numReviews: 180
     },
-
-    // FASHION & LIFESTYLE (31-40)
     {
         name: 'Ray-Ban Wayfarer Classic',
         image: 'https://images.unsplash.com/photo-1511499767390-a75c20389748?q=80&w=400&h=400&auto=format&fit=crop',
@@ -393,7 +386,7 @@ const products = [
     },
     {
         name: 'Standard Issue Gym Bag',
-        image: 'https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=400&h=400&auto=format&fit=crop',
+        image: 'https://images.unsplash.com/photo-1563770660941-20978e870e26?q=80&w=400&h=400&auto=format&fit=crop',
         description: 'Durable canvas bag for the gym.',
         brand: 'Generic',
         category: 'Fitness',
@@ -446,8 +439,6 @@ const products = [
         rating: 4.6,
         numReviews: 120
     },
-
-    // MORE ELECTRONICS & GADGETS (41-50)
     {
         name: 'Razer DeathAdder V3 Pro',
         image: 'https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?q=80&w=400&h=400&auto=format&fit=crop',
@@ -472,7 +463,7 @@ const products = [
     },
     {
         name: 'Bose Smart Soundbar 900',
-        image: 'https://images.unsplash.com/photo-1545454675-3531b543be5d?q=80&w=400&h=400&auto=format&fit=crop',
+        image: 'https://images.unsplash.com/photo-1545455213-102a9524fd0c?q=80&w=400&h=400&auto=format&fit=crop',
         description: 'Dolby Atmos cinematic sound.',
         brand: 'Bose',
         category: 'Electronics',
