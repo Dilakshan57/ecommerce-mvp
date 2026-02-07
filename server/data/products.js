@@ -2,7 +2,7 @@ const products = [
     // ELECTRONICS (1-10)
     {
         name: 'AirPods Pro (2nd Gen)',
-        image: 'https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb?q=80&w=400&h=400&auto=format&fit=crop',
+        image: 'https://m.media-amazon.com/images/I/61f1YfTkTDL._AC_SL1500_.jpg',
         description: 'Active Noise Cancellation and Transparency mode.',
         brand: 'Apple',
         category: 'Electronics',
@@ -46,7 +46,7 @@ const products = [
     },
     {
         name: 'Nintendo Switch OLED',
-        image: 'https://images.unsplash.com/photo-1612036782180-6f0b6cd846fe?q=80&w=400&h=400&auto=format&fit=crop',
+        image: 'https://m.media-amazon.com/images/I/61S9df6k9uL._AC_SL1500_.jpg',
         description: 'Vibrant 7-inch OLED screen.',
         brand: 'Nintendo',
         category: 'Electronics',
@@ -68,7 +68,7 @@ const products = [
     },
     {
         name: 'Logitech MX Master 3S',
-        image: 'https://images.unsplash.com/photo-1629429464245-12d8a39d841e?q=80&w=400&h=400&auto=format&fit=crop',
+        image: 'https://m.media-amazon.com/images/I/61ni3t1ryQL._AC_SL1500_.jpg',
         description: 'Precise wireless mouse for creators.',
         brand: 'Logitech',
         category: 'Electronics',
@@ -136,7 +136,7 @@ const products = [
     },
     {
         name: 'Hydro Flask 32oz',
-        image: 'https://images.unsplash.com/photo-1605342129063-e316d20367cb?q=80&w=400&h=400&auto=format&fit=crop',
+        image: 'https://m.media-amazon.com/images/I/618S899nL-L._AC_SL1500_.jpg',
         description: 'Insulated stainless steel water bottle.',
         brand: 'Hydro Flask',
         category: 'Accessories',
@@ -147,7 +147,7 @@ const products = [
     },
     {
         name: 'Bellroy Classic Backpack',
-        image: 'https://images.unsplash.com/photo-1553062407-98eeb94c6a62?q=80&w=400&h=400&auto=format&fit=crop',
+        image: 'https://m.media-amazon.com/images/I/71Z-T8G9f8L._AC_SL1500_.jpg',
         description: 'Sleek design for urban commute.',
         brand: 'Bellroy',
         category: 'Accessories',
@@ -158,7 +158,7 @@ const products = [
     },
     {
         name: 'Apple Watch Ultra 2',
-        image: 'https://images.unsplash.com/photo-1551816230-ef5deaed4a26?q=80&w=400&h=400&auto=format&fit=crop',
+        image: 'https://m.media-amazon.com/images/I/716u7T9I8VL._AC_SL1500_.jpg',
         description: 'For endurance and exploration.',
         brand: 'Apple',
         category: 'Accessories',
@@ -191,7 +191,7 @@ const products = [
     },
     {
         name: 'Anker 737 Power Bank',
-        image: 'https://images.unsplash.com/photo-1618414465744-2a621743048b?q=80&w=400&h=400&auto=format&fit=crop',
+        image: 'https://m.media-amazon.com/images/I/61pDbtm0SGL._AC_SL1500_.jpg',
         description: '140W fast charge 24,000mAh bank.',
         brand: 'Anker',
         category: 'Accessories',
@@ -213,7 +213,7 @@ const products = [
     },
     {
         name: 'Matte Grey Desktop Mat',
-        image: 'https://images.unsplash.com/photo-1616627741699-2715d0bf0a99?q=80&w=400&h=400&auto=format&fit=crop',
+        image: 'https://m.media-amazon.com/images/I/71Yv8q2m1qL._AC_SL1500_.jpg',
         description: 'Full-size minimalist felt desk mat.',
         brand: 'Generic',
         category: 'Accessories',
@@ -237,7 +237,7 @@ const products = [
     },
     {
         name: 'Philips Hue Starter Kit',
-        image: 'https://images.unsplash.com/photo-1550985543-f47f38aee65e?q=80&w=400&h=400&auto=format&fit=crop',
+        image: 'https://m.media-amazon.com/images/I/71lF8z2Z8LL._AC_SL1500_.jpg',
         description: 'Smart lighting system with Hue bridge.',
         brand: 'Philips',
         category: 'Home',
@@ -270,7 +270,7 @@ const products = [
     },
     {
         name: 'KitchenAid Artisan Mixer',
-        image: 'https://images.unsplash.com/photo-1594385208974-2e75f9d8ad48?q=80&w=400&h=400&auto=format&fit=crop',
+        image: 'https://m.media-amazon.com/images/I/71YV6m-uRcL._AC_SL1500_.jpg',
         description: 'Iconic 5-quart tilt-head stand mixer.',
         brand: 'KitchenAid',
         category: 'Home',
@@ -281,7 +281,7 @@ const products = [
     },
     {
         name: 'Herman Miller Aeron',
-        image: 'https://images.unsplash.com/photo-1592074522311-8c074f5f02bc?q=80&w=400&h=400&auto=format&fit=crop',
+        image: 'https://m.media-amazon.com/images/I/71P7tV2H7aL._AC_SL1500_.jpg',
         description: 'The benchmark for ergonomic office chairs.',
         brand: 'Herman Miller',
         category: 'Office',
@@ -303,7 +303,7 @@ const products = [
     },
     {
         name: 'Timbuk2 Command Messenger',
-        image: 'https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=400&h=400&auto=format&fit=crop',
+        image: 'https://m.media-amazon.com/images/I/81Pz-U5W30L._AC_SL1500_.jpg',
         description: 'TSA-friendly laptop messenger bag.',
         brand: 'Timbuk2',
         category: 'Accessories',
@@ -338,7 +338,7 @@ const products = [
     // FASHION & LIFESTYLE (31-40)
     {
         name: 'Ray-Ban Wayfarer Classic',
-        image: 'https://images.unsplash.com/photo-1511499767390-a75c20389748?q=80&w=400&h=400&auto=format&fit=crop',
+        image: 'https://m.media-amazon.com/images/I/51r5Y-z6YML._AC_SL1500_.jpg',
         description: 'Timeless style and superior optics.',
         brand: 'Ray-Ban',
         category: 'Fashion',
@@ -472,7 +472,7 @@ const products = [
     },
     {
         name: 'Bose Smart Soundbar 900',
-        image: 'https://images.unsplash.com/photo-1545455213-102a9524fd0c?q=80&w=400&h=400&auto=format&fit=crop',
+        image: 'https://m.media-amazon.com/images/I/51p8I6yM2QL._AC_SL1500_.jpg',
         description: 'Dolby Atmos cinematic sound.',
         brand: 'Bose',
         category: 'Electronics',
@@ -494,7 +494,7 @@ const products = [
     },
     {
         name: 'Seagate IronWolf 8TB HDD',
-        image: 'https://images.unsplash.com/photo-1531492746076-1a1bd9b29fc0?q=80&w=400&h=400&auto=format&fit=crop',
+        image: 'https://m.media-amazon.com/images/I/71f-vVw2VGL._AC_SL1500_.jpg',
         description: 'Network Attached Storage (NAS) hard drive.',
         brand: 'Seagate',
         category: 'Electronics',
@@ -505,7 +505,7 @@ const products = [
     },
     {
         name: 'Google Pixel 8 Pro',
-        image: 'https://images.unsplash.com/photo-1621330396173-e41b1812863b?q=80&w=400&h=400&auto=format&fit=crop',
+        image: 'https://m.media-amazon.com/images/I/71-0Y7m0iGL._AC_SL1500_.jpg',
         description: 'The best Google camera in a phone yet.',
         brand: 'Google',
         category: 'Electronics',
@@ -549,7 +549,7 @@ const products = [
     },
     {
         name: 'Samsung Galaxy Tab S9',
-        image: 'https://images.unsplash.com/photo-1544244015-0cd4b3fe6520?q=80&w=400&h=400&auto=format&fit=crop',
+        image: 'https://m.media-amazon.com/images/I/71N15g-uROL._AC_SL1500_.jpg',
         description: 'Premium tablet with S Pen included.',
         brand: 'Samsung',
         category: 'Electronics',
