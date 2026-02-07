@@ -38,55 +38,57 @@ const RegisterScreen = () => {
     };
 
     return (
-        <div style={{ maxWidth: '400px', margin: '0 auto' }}>
-            <h1>Sign Up</h1>
-            {message && <Message variant='danger'>{message}</Message>}
-            {error && <Message variant='danger'>{error}</Message>}
-            {loading && <Loader />}
-            <form onSubmit={submitHandler}>
-                <div className='form-group'>
-                    <label>Name</label>
-                    <input
-                        type='text'
-                        placeholder='Enter name'
-                        value={name}
-                        onChange={(e) => setName(e.target.value)}
-                    />
-                </div>
-                <div className='form-group'>
-                    <label>Email Address</label>
-                    <input
-                        type='email'
-                        placeholder='Enter email'
-                        value={email}
-                        onChange={(e) => setEmail(e.target.value)}
-                    />
-                </div>
-                <div className='form-group'>
-                    <label>Password</label>
-                    <input
-                        type='password'
-                        placeholder='Enter password'
-                        value={password}
-                        onChange={(e) => setPassword(e.target.value)}
-                    />
-                </div>
-                <div className='form-group'>
-                    <label>Confirm Password</label>
-                    <input
-                        type='password'
-                        placeholder='Confirm password'
-                        value={confirmPassword}
-                        onChange={(e) => setConfirmPassword(e.target.value)}
-                    />
-                </div>
-                <button type='submit' className='btn btn-block'>
-                    Register
-                </button>
-            </form>
+        <div className='auth-page-wrapper'>
+            <div style={{ maxWidth: '400px', margin: '0 auto', background: 'rgba(255, 255, 255, 0.9)', padding: '2rem', borderRadius: '10px', boxShadow: '0 10px 30px rgba(0,0,0,0.5)' }}>
+                <h1>Sign Up</h1>
+                {message && <Message variant='danger'>{message}</Message>}
+                {error && <Message variant='danger'>{error}</Message>}
+                {loading && <Loader />}
+                <form onSubmit={submitHandler}>
+                    <div className='form-group'>
+                        <label>Name</label>
+                        <input
+                            type='text'
+                            placeholder='Enter name'
+                            value={name}
+                            onChange={(e) => setName(e.target.value)}
+                        />
+                    </div>
+                    <div className='form-group'>
+                        <label>Email Address</label>
+                        <input
+                            type='email'
+                            placeholder='Enter email'
+                            value={email}
+                            onChange={(e) => setEmail(e.target.value)}
+                        />
+                    </div>
+                    <div className='form-group'>
+                        <label>Password</label>
+                        <input
+                            type='password'
+                            placeholder='Enter password'
+                            value={password}
+                            onChange={(e) => setPassword(e.target.value)}
+                        />
+                    </div>
+                    <div className='form-group'>
+                        <label>Confirm Password</label>
+                        <input
+                            type='password'
+                            placeholder='Confirm password'
+                            value={confirmPassword}
+                            onChange={(e) => setConfirmPassword(e.target.value)}
+                        />
+                    </div>
+                    <button type='submit' className='btn btn-block'>
+                        Register
+                    </button>
+                </form>
 
-            <div style={{ marginTop: '10px' }}>
-                Have an Account? <Link to={redirect ? `/login?redirect=${redirect}` : '/login'}>Login</Link>
+                <div style={{ marginTop: '10px' }}>
+                    Have an Account? <Link to={redirect ? `/login?redirect=${redirect}` : '/login'}>Login</Link>
+                </div>
             </div>
         </div>
     );
