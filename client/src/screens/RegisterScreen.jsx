@@ -38,7 +38,7 @@ const RegisterScreen = () => {
     };
 
     return (
-        <div className='auth-page-wrapper'>
+        <div className='auth-page-wrapper light-theme'>
             <div className='auth-form-container'>
                 <h1>Sign Up</h1>
                 {message && <Message variant='danger'>{message}</Message>}

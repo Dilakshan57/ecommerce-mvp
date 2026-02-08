@@ -224,51 +224,85 @@ footer {
   box-shadow: 0 -5px 20px rgba(0, 0, 0, 0.2);
 }
 
+/* Light Theme Utility */
+.light-theme {
+  background-color: #ffffff !important;
+  color: #1a1a1a !important;
+}
+
+.light-theme h1,
+.light-theme h2,
+.light-theme h3,
+.light-theme p {
+  color: #1a1a1a !important;
+}
+
 /* Auth Page Wrapper with Animation */
 .auth-page-wrapper {
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  /* Align to top for spacing control */
   background: linear-gradient(135deg, #0f0f0f 0%, #222222 50%, #0f0f0f 100%);
   background-size: 400% 400%;
   animation: matteMove 15s ease infinite;
   padding: 20px;
 }
 
+.auth-page-wrapper.light-theme {
+  background: #ffffff !important;
+  animation: none;
+}
+
 .auth-form-container {
   width: 50%;
-  /* 50% Width as requested */
   max-width: 800px;
-  margin-top: 15vh;
-  /* Spacing from header (approx 20% of viewport height minus header) */
-  background: rgba(255, 255, 255, 0.1) !important;
-  /* Transparent Box */
+  margin-top: 10vh;
+  background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
-  /* Glass effect */
   padding: 3rem;
   border-radius: 20px;
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
   border: 1px solid rgba(255, 255, 255, 0.1);
   color: #fff;
-  /* White text for contrast on dark background */
 }
 
-.auth-form-container h1 {
-  color: #fff;
-  margin-bottom: 2rem;
-  text-align: center;
+.light-theme .auth-form-container {
+  background: #fff !important;
+  border: 1px solid #ddd;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  color: #1a1a1a;
 }
 
-.auth-form-container .form-group label {
-  color: #ccc;
+.light-theme .auth-form-container h1,
+.light-theme .auth-form-container label,
+.light-theme .auth-form-container div {
+  color: #1a1a1a !important;
 }
 
-.auth-form-container .form-group input {
-  background: rgba(255, 255, 255, 0.05);
-  border-color: rgba(255, 255, 255, 0.1);
-  color: #fff;
+.light-theme .auth-form-container input {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  color: #1a1a1a;
+}
+
+.product-layout-refinement {
+  display: flex;
+  align-items: flex-start;
+  gap: 5%;
+  padding: 40px 0;
+}
+
+.product-img-left-refinement {
+  width: 30%;
+  height: 50vh;
+  object-fit: contain;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 15px;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
 @media (max-width: 1000px) {

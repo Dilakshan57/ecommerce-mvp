@@ -27,12 +27,17 @@ const AppContent = () => {
   const location = useLocation();
   const isLandingPage = location.pathname === '/';
   const isAuthPage = location.pathname === '/login' || location.pathname === '/register';
+  const isShopPage = location.pathname === '/shop';
+  const isProductPage = location.pathname.startsWith('/product/');
   const isFullPage = isLandingPage || isAuthPage;
 
+  // Apply light theme only to specific pages as requested by user
+  const isLightThemePage = isShopPage || isProductPage || location.pathname === '/register' || location.pathname === '/login';
+
   return (
-    <>
+    <div className={isLightThemePage ? 'light-theme' : ''}>
       <Header />
-      <main className={isFullPage ? '' : 'container'}>
+      <main className={`${isFullPage ? '' : 'container'} ${isLightThemePage ? 'light-theme' : ''}`} style={{ minHeight: '80vh' }}>
         <Routes>
           <Route path='/' element={<HomeScreen />} />
           <Route path='/shop' element={<ShopScreen />} />
@@ -56,7 +61,7 @@ const AppContent = () => {
       </main>
       <Footer />
       <ToastContainer />
-    </>
+    </div>
   );
 };
 

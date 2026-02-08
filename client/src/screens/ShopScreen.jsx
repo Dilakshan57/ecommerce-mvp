@@ -31,7 +31,7 @@ const ShopScreen = () => {
 
     return (
         <div style={{ minHeight: '80vh', paddingBottom: '50px' }}>
-            <h1 style={{ margin: '20px 0', fontSize: '2rem', fontWeight: '800' }}>
+            <h1 style={{ margin: '20px 0', fontSize: '2rem', fontWeight: '800', color: '#1a1a1a' }}>
                 {keyword ? `Search Results for "${keyword}"` : 'Store Catalog'}
             </h1>
             {loading ? (
