@@ -260,7 +260,24 @@ footer {
   border-radius: 20px;
   box-shadow: 0 40px 100px rgba(0, 0, 0, 0.9);
   border: 1px solid rgba(255, 255, 255, 0.2);
-  color: #fff;
+  color: #fff !important;
+}
+
+.auth-form-container h1,
+.auth-form-container h2,
+.auth-form-container label,
+.auth-form-container span,
+.auth-form-container div {
+  color: #fff !important;
+}
+
+.auth-form-container input {
+  color: #fff !important;
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.auth-form-container input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .light-theme .auth-form-container {
