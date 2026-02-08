@@ -1,8 +1,9 @@
 import { Link } from 'react-router-dom';
 import { useContext } from 'react';
-import { FaShoppingCart, FaUser } from 'react-icons/fa';
+import { FaShoppingCart, FaUser, FaStore } from 'react-icons/fa';
 import AuthContext from '../context/AuthContext';
 import CartContext from '../context/CartContext';
+import SearchBox from './SearchBox';
 
 const Header = () => {
     const { user, logout } = useContext(AuthContext);
@@ -15,6 +16,14 @@ const Header = () => {
                     ProShop
                 </Link>
                 <ul>
+                    <li>
+                        <SearchBox />
+                    </li>
+                    <li>
+                        <Link to='/shop' style={{ display: 'flex', alignItems: 'center' }}>
+                            <FaStore size={18} /> <span style={{ marginLeft: '5px' }}>Products</span>
+                        </Link>
+                    </li>
                     <li>
                         <Link to='/cart' style={{ display: 'flex', alignItems: 'center' }}>
                             <FaShoppingCart size={20} /> <span style={{ marginLeft: '5px' }}>Cart</span>
@@ -35,7 +44,7 @@ const Header = () => {
                             </li>
                             {user.isAdmin && (
                                 <>
-                                    <li><Link to='/admin/productlist'>Products</Link></li>
+                                    <li><Link to='/admin/productlist'>Manage Products</Link></li>
                                     <li><Link to='/admin/orderlist'>Orders</Link></li>
                                 </>
                             )}

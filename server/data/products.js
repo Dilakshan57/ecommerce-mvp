@@ -447,7 +447,7 @@ const products = [
         numReviews: 120
     },
 
-    // MORE ELECTRONICS & GADGETS (41-50)
+    // MORE GADGETS & LIFESTYLE (41-50)
     {
         name: 'Razer DeathAdder V3 Pro',
         image: 'https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?q=80&w=400&h=400&auto=format&fit=crop',
@@ -557,6 +557,558 @@ const products = [
         countInStock: 10,
         rating: 4.8,
         numReviews: 22
+    },
+
+    // NEW PRODUCTS (51-100) - HOME, LIFESTYLE, FURNITURE, TECH
+    {
+        name: 'Ato Bolden Coffee Table',
+        image: 'https://images.unsplash.com/photo-1533090161767-e6ffed986c88?q=80&w=400&h=400&auto=format&fit=crop',
+        description: 'Minimalist marble and steel coffee table.',
+        brand: 'Ato',
+        category: 'Furniture',
+        price: 450.00,
+        countInStock: 4,
+        rating: 4.7,
+        numReviews: 12
+    },
+    {
+        name: 'Eames Lounge Chair',
+        image: 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?q=80&w=400&h=400&auto=format&fit=crop',
+        description: 'Iconic mid-century modern design.',
+        brand: 'Herman Miller',
+        category: 'Furniture',
+        price: 5295.00,
+        countInStock: 2,
+        rating: 5.0,
+        numReviews: 6
+    },
+    {
+        name: 'Polaroid Now+ Gen 2',
+        image: 'https://images.unsplash.com/photo-1526170315870-ef68cf653376?q=80&w=400&h=400&auto=format&fit=crop',
+        description: 'Connected instant camera with app control.',
+        brand: 'Polaroid',
+        category: 'Lifestyle',
+        price: 149.99,
+        countInStock: 15,
+        rating: 4.4,
+        numReviews: 28
+    },
+    {
+        name: 'Fellow Stagg EKG Kettle',
+        image: 'https://images.unsplash.com/photo-1544787210-282dd05c2ad7?q=80&w=400&h=400&auto=format&fit=crop',
+        description: 'Electric pour-over kettle for coffee enthusiasts.',
+        brand: 'Fellow',
+        category: 'Kitchen',
+        price: 165.00,
+        countInStock: 20,
+        rating: 4.9,
+        numReviews: 150
+    },
+    {
+        name: 'Theragun PRO G5',
+        image: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=400&h=400&auto=format&fit=crop',
+        description: 'Professional-grade percussive therapy device.',
+        brand: 'Therabody',
+        category: 'Fitness',
+        price: 599.00,
+        countInStock: 8,
+        rating: 4.8,
+        numReviews: 42
+    },
+    {
+        name: 'Peloton Bike+',
+        image: 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=400&h=400&auto=format&fit=crop',
+        description: 'The ultimate indoor cycling experience.',
+        brand: 'Peloton',
+        category: 'Fitness',
+        price: 2495.00,
+        countInStock: 3,
+        rating: 4.9,
+        numReviews: 320
+    },
+    {
+        name: 'Opal Countertop Nugget Ice',
+        image: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=400&h=400&auto=format&fit=crop',
+        description: 'Crunchy restaurant-style nugget ice at home.',
+        brand: 'GE Profile',
+        category: 'Kitchen',
+        price: 579.00,
+        countInStock: 5,
+        rating: 4.6,
+        numReviews: 89
+    },
+    {
+        name: 'Bowers & Wilkins PX7 S2',
+        image: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=400&h=400&auto=format&fit=crop',
+        description: 'Premium noise-cancelling headphones.',
+        brand: 'Bowers & Wilkins',
+        category: 'Electronics',
+        price: 399.00,
+        countInStock: 10,
+        rating: 4.7,
+        numReviews: 15
+    },
+    {
+        name: 'Everlane Grade-A Cashmere',
+        image: 'https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?q=80&w=400&h=400&auto=format&fit=crop',
+        description: 'Sustainable luxury cashmere crew neck.',
+        brand: 'Everlane',
+        category: 'Fashion',
+        price: 145.00,
+        countInStock: 25,
+        rating: 4.6,
+        numReviews: 110
+    },
+    {
+        name: 'Peak Design Travel Backpack',
+        image: 'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?q=80&w=400&h=400&auto=format&fit=crop',
+        description: 'Versatile 45L travel carry-on bag.',
+        brand: 'Peak Design',
+        category: 'Lifestyle',
+        price: 299.00,
+        countInStock: 12,
+        rating: 4.9,
+        numReviews: 54
+    },
+    {
+        name: 'Aarke Carbonator III',
+        image: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=400&h=400&auto=format&fit=crop',
+        description: 'Premium stainless steel sparkling water maker.',
+        brand: 'Aarke',
+        category: 'Kitchen',
+        price: 219.00,
+        countInStock: 18,
+        rating: 4.8,
+        numReviews: 62
+    },
+    {
+        name: 'Rimowa Classic Cabin',
+        image: 'https://images.unsplash.com/photo-1565026057447-bc90a3dceb87?q=80&w=400&h=400&auto=format&fit=crop',
+        description: 'Iconic aluminium suitcase.',
+        brand: 'Rimowa',
+        category: 'Lifestyle',
+        price: 1350.00,
+        countInStock: 5,
+        rating: 4.9,
+        numReviews: 24
+    },
+    {
+        name: 'Aesop Resurrection Hand Balm',
+        image: 'https://images.unsplash.com/photo-1620916566398-39f1143ab7be?q=80&w=400&h=400&auto=format&fit=crop',
+        description: 'Aromatic hydrating hand treatment.',
+        brand: 'Aesop',
+        category: 'Lifestyle',
+        price: 33.00,
+        countInStock: 40,
+        rating: 4.8,
+        numReviews: 190
+    },
+    {
+        name: 'Le Labo Santal 33',
+        image: 'https://images.unsplash.com/photo-1541643600914-78b084683601?q=80&w=400&h=400&auto=format&fit=crop',
+        description: 'The cult favorite woody iris fragrance.',
+        brand: 'Le Labo',
+        category: 'Lifestyle',
+        price: 285.00,
+        countInStock: 10,
+        rating: 4.7,
+        numReviews: 88
+    },
+    {
+        name: 'Yeti Tundra 45 Cooler',
+        image: 'https://images.unsplash.com/photo-1581412581745-f93806be97cc?q=80&w=400&h=400&auto=format&fit=crop',
+        description: 'Legendary toughness and ice retention.',
+        brand: 'Yeti',
+        category: 'Outdoors',
+        price: 325.00,
+        countInStock: 15,
+        rating: 4.9,
+        numReviews: 140
+    },
+    {
+        name: 'Nomad Base One Max',
+        image: 'https://images.unsplash.com/photo-1616440242701-06332f754bde?q=80&w=400&h=400&auto=format&fit=crop',
+        description: 'Premium MagSafe charging station.',
+        brand: 'Nomad',
+        category: 'Electronics',
+        price: 149.00,
+        countInStock: 22,
+        rating: 4.5,
+        numReviews: 31
+    },
+    {
+        name: 'Grovemade Desk Shelf',
+        image: 'https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?q=80&w=400&h=400&auto=format&fit=crop',
+        description: 'The original ergonomic desk organizer.',
+        brand: 'Grovemade',
+        category: 'Office',
+        price: 220.00,
+        countInStock: 8,
+        rating: 4.9,
+        numReviews: 45
+    },
+    {
+        name: 'Oura Ring Gen3',
+        image: 'https://images.unsplash.com/photo-1631541909061-70e088350dca?q=80&w=400&h=400&auto=format&fit=crop',
+        description: 'Advanced sleep and health tracker.',
+        brand: 'Oura',
+        category: 'Fitness',
+        price: 299.00,
+        countInStock: 30,
+        rating: 4.6,
+        numReviews: 210
+    },
+    {
+        name: 'Master & Dynamic MH40',
+        image: 'https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?q=80&w=400&h=400&auto=format&fit=crop',
+        description: 'Wireless over-ear leather headphones.',
+        brand: 'Master & Dynamic',
+        category: 'Electronics',
+        price: 249.00,
+        countInStock: 14,
+        rating: 4.5,
+        numReviews: 27
+    },
+    {
+        name: 'Malm Sixth Sense Bed',
+        image: 'https://images.unsplash.com/photo-1505693419148-de39736e42d7?q=80&w=400&h=400&auto=format&fit=crop',
+        description: 'Luxury floating bed frame with LEDs.',
+        brand: 'IKEA',
+        category: 'Furniture',
+        price: 899.00,
+        countInStock: 5,
+        rating: 4.4,
+        numReviews: 55
+    },
+    {
+        name: 'Twelve South Curve Flex',
+        image: 'https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?q=80&w=400&h=400&auto=format&fit=crop',
+        description: 'Portable MacBook stand for better ergonomics.',
+        brand: 'Twelve South',
+        category: 'Accessories',
+        price: 79.99,
+        countInStock: 25,
+        rating: 4.7,
+        numReviews: 68
+    },
+    {
+        name: 'Nanleaf Lines Starter Kit',
+        image: 'https://images.unsplash.com/photo-1563089145-599997674d42?q=80&w=400&h=400&auto=format&fit=crop',
+        description: 'Smart backlit LED light bars.',
+        brand: 'Nanoleaf',
+        category: 'Home',
+        price: 199.99,
+        countInStock: 12,
+        rating: 4.6,
+        numReviews: 41
+    },
+    {
+        name: 'Secretlab MAGNUS Pro',
+        image: 'https://images.unsplash.com/photo-1593642632823-8f785ba67e45?q=80&w=400&h=400&auto=format&fit=crop',
+        description: 'The ultimate metal sit-to-stand desk.',
+        brand: 'Secretlab',
+        category: 'Office',
+        price: 799.00,
+        countInStock: 6,
+        rating: 4.8,
+        numReviews: 120
+    },
+    {
+        name: 'Wusthof Gourmet 12-Piece',
+        image: 'https://images.unsplash.com/photo-1593642634315-48f5414c3ad9?q=80&w=400&h=400&auto=format&fit=crop',
+        description: 'Precision forged German knife set.',
+        brand: 'Wusthof',
+        category: 'Kitchen',
+        price: 345.00,
+        countInStock: 10,
+        rating: 4.9,
+        numReviews: 76
+    },
+    {
+        name: 'Breville Barista Touch',
+        image: 'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=400&h=400&auto=format&fit=crop',
+        description: 'Automatic espresso maker with touch screen.',
+        brand: 'Breville',
+        category: 'Kitchen',
+        price: 1099.00,
+        countInStock: 4,
+        rating: 4.8,
+        numReviews: 95
+    },
+    {
+        name: 'Frame TV 65"',
+        image: 'https://images.unsplash.com/photo-1593359677777-a3d24fd93b16?q=80&w=400&h=400&auto=format&fit=crop',
+        description: 'TV when it\'s on, Art when it\'s off.',
+        brand: 'Samsung',
+        category: 'Home',
+        price: 1999.00,
+        countInStock: 7,
+        rating: 4.7,
+        numReviews: 54
+    },
+    {
+        name: 'Etsy Custom Neon Sign',
+        image: 'https://images.unsplash.com/photo-1554181831-27d6db6d633c?q=80&w=400&h=400&auto=format&fit=crop',
+        description: 'Personalized neon LED wall decor.',
+        brand: 'Generic',
+        category: 'Home',
+        price: 120.00,
+        countInStock: 100,
+        rating: 4.5,
+        numReviews: 310
+    },
+    {
+        name: 'Audo Copenhagen Table Lamp',
+        image: 'https://images.unsplash.com/photo-1507473885765-e6ed057f782c?q=80&w=400&h=400&auto=format&fit=crop',
+        description: 'Elegant rechargeable portable lamp.',
+        brand: 'Menu',
+        category: 'Home',
+        price: 180.00,
+        countInStock: 15,
+        rating: 4.8,
+        numReviews: 22
+    },
+    {
+        name: 'Sennheiser Ambeo Soundbar',
+        image: 'https://images.unsplash.com/photo-1545454675-3531b543be5d?q=80&w=400&h=400&auto=format&fit=crop',
+        description: 'World-class 3D audio experience.',
+        brand: 'Sennheiser',
+        category: 'Electronics',
+        price: 2499.00,
+        countInStock: 2,
+        rating: 4.9,
+        numReviews: 18
+    },
+    {
+        name: 'Shinola The Runwell',
+        image: 'https://images.unsplash.com/photo-1524592094714-0f0654e20314?q=80&w=400&h=400&auto=format&fit=crop',
+        description: 'Detroit-built signature leather watch.',
+        brand: 'Shinola',
+        category: 'Fashion',
+        price: 595.00,
+        countInStock: 10,
+        rating: 4.7,
+        numReviews: 36
+    },
+    {
+        name: 'Common Projects Achilles',
+        image: 'https://images.unsplash.com/photo-1549298916-b41d501d3772?q=80&w=400&h=400&auto=format&fit=crop',
+        description: 'The definitive luxury minimalist sneaker.',
+        brand: 'Common Projects',
+        category: 'Fashion',
+        price: 415.00,
+        countInStock: 12,
+        rating: 4.8,
+        numReviews: 92
+    },
+    {
+        name: 'Snow Peak Titanium Cup',
+        image: 'https://images.unsplash.com/photo-1517502884422-41eaead166d4?q=80&w=400&h=400&auto=format&fit=crop',
+        description: 'Ultra-lightweight Japanese outdoor mug.',
+        brand: 'Snow Peak',
+        category: 'Outdoors',
+        price: 45.00,
+        countInStock: 50,
+        rating: 4.9,
+        numReviews: 140
+    },
+    {
+        name: 'Lululemon ABC Joggers',
+        image: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=400&h=400&auto=format&fit=crop',
+        description: 'Breathable, stretchy, commute-ready joggers.',
+        brand: 'Lululemon',
+        category: 'Fashion',
+        price: 128.00,
+        countInStock: 30,
+        rating: 4.8,
+        numReviews: 280
+    },
+    {
+        name: 'Bellroy Card Sleeve',
+        image: 'https://images.unsplash.com/photo-1627123424574-724758594e93?q=80&w=400&h=400&auto=format&fit=crop',
+        description: 'Ultra-slim leather minimalist wallet.',
+        brand: 'Bellroy',
+        category: 'Accessories',
+        price: 55.00,
+        countInStock: 45,
+        rating: 4.6,
+        numReviews: 120
+    },
+    {
+        name: 'Orbitkey Key Organizer',
+        image: 'https://images.unsplash.com/photo-1582140161476-848e42131971?q=80&w=400&h=400&auto=format&fit=crop',
+        description: 'Silence noisy keys with leather strap.',
+        brand: 'Orbitkey',
+        category: 'Accessories',
+        price: 43.50,
+        countInStock: 60,
+        rating: 4.7,
+        numReviews: 85
+    },
+    {
+        name: 'Anker Nebula Cosmos',
+        image: 'https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?q=80&w=400&h=400&auto=format&fit=crop',
+        description: '1080p Laser projector with Android TV.',
+        brand: 'Anker',
+        category: 'Electronics',
+        price: 699.00,
+        countInStock: 8,
+        rating: 4.5,
+        numReviews: 39
+    },
+    {
+        name: 'Satechi Slim X1',
+        image: 'https://images.unsplash.com/photo-1587829741301-dc798b83dadc?q=80&w=400&h=400&auto=format&fit=crop',
+        description: 'Bluetooth backlit keyboard for Mac.',
+        brand: 'Satechi',
+        category: 'Accessories',
+        price: 69.99,
+        countInStock: 20,
+        rating: 4.4,
+        numReviews: 24
+    },
+    {
+        name: 'Native Union Belt Cable',
+        image: 'https://images.unsplash.com/photo-1588508065123-287b28e013da?q=80&w=400&h=400&auto=format&fit=crop',
+        description: '10ft ultra-strong reinforced USB-C cable.',
+        brand: 'Native Union',
+        category: 'Accessories',
+        price: 39.99,
+        countInStock: 50,
+        rating: 4.7,
+        numReviews: 55
+    },
+    {
+        name: 'Muji Gel Ink Pens (10ct)',
+        image: 'https://images.unsplash.com/photo-1585336139118-132f7f21503e?q=80&w=400&h=400&auto=format&fit=crop',
+        description: 'The cult favorite Japanese stationer pen.',
+        brand: 'Muji',
+        category: 'Office',
+        price: 15.00,
+        countInStock: 200,
+        rating: 4.9,
+        numReviews: 450
+    },
+    {
+        name: 'HHKB Professional HYBRID',
+        image: 'https://images.unsplash.com/photo-1595225476474-87563907a212?q=80&w=400&h=400&auto=format&fit=crop',
+        description: 'The king of mechanical keyboards.',
+        brand: 'PFU',
+        category: 'Electronics',
+        price: 335.00,
+        countInStock: 5,
+        rating: 5.0,
+        numReviews: 42
+    },
+    {
+        name: 'Diptqyue Baies Candle',
+        image: 'https://images.unsplash.com/photo-1603007905991-83c853bc5c3?q=80&w=400&h=400&auto=format&fit=crop',
+        description: 'Legendary berry and wood scent.',
+        brand: 'Diptyque',
+        category: 'Home',
+        price: 74.00,
+        countInStock: 25,
+        rating: 4.8,
+        numReviews: 310
+    },
+    {
+        name: 'Le Creuset Dutch Oven',
+        image: 'https://images.unsplash.com/photo-1590794056226-79ef3a8147e1?q=80&w=400&h=400&auto=format&fit=crop',
+        description: 'Enameled cast iron heirloom cookware.',
+        brand: 'Le Creuset',
+        category: 'Kitchen',
+        price: 420.00,
+        countInStock: 8,
+        rating: 5.0,
+        numReviews: 240
+    },
+    {
+        name: 'Gozney Roccbox',
+        image: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=400&h=400&auto=format&fit=crop',
+        description: 'Professional portable pizza oven.',
+        brand: 'Gozney',
+        category: 'Kitchen',
+        price: 499.00,
+        countInStock: 4,
+        rating: 4.9,
+        numReviews: 62
+    },
+    {
+        name: 'Buly 1803 Body Oil',
+        image: 'https://images.unsplash.com/photo-1608248597279-f99d160bfcbc?q=80&w=400&h=400&auto=format&fit=crop',
+        description: 'French apothecary luxury body oil.',
+        brand: 'Officine Universelle Buly',
+        category: 'Lifestyle',
+        price: 58.00,
+        countInStock: 12,
+        rating: 4.7,
+        numReviews: 18
+    },
+    {
+        name: 'Carl Friedrik Palissy Briefcase',
+        image: 'https://images.unsplash.com/photo-1547949003-9792a18a2601?q=80&w=400&h=400&auto=format&fit=crop',
+        description: 'Italian leather luxury work bag.',
+        brand: 'Carl Friedrik',
+        category: 'Fashion',
+        price: 645.00,
+        countInStock: 5,
+        rating: 4.9,
+        numReviews: 12
+    },
+    {
+        name: 'Lofree Flow Keyboard',
+        image: 'https://images.unsplash.com/photo-1626958390898-162d3577cd97?q=80&w=400&h=400&auto=format&fit=crop',
+        description: 'Smooth low-profile mechanical keyboard.',
+        brand: 'Lofree',
+        category: 'Electronics',
+        price: 159.00,
+        countInStock: 20,
+        rating: 4.6,
+        numReviews: 34
+    },
+    {
+        name: 'Vitra Eames Elephant',
+        image: 'https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=400&h=400&auto=format&fit=crop',
+        description: 'Design icon for the modern home.',
+        brand: 'Vitra',
+        category: 'Furniture',
+        price: 335.00,
+        countInStock: 6,
+        rating: 4.8,
+        numReviews: 9
+    },
+    {
+        name: 'Muuto Connect Sofa',
+        image: 'https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?q=80&w=400&h=400&auto=format&fit=crop',
+        description: 'Modular Scandinavian comfort.',
+        brand: 'Muuto',
+        category: 'Furniture',
+        price: 2450.00,
+        countInStock: 2,
+        rating: 4.7,
+        numReviews: 5
+    },
+    {
+        name: 'Hay Sowden Kettle',
+        image: 'https://images.unsplash.com/photo-1544787210-282dd05c2ad7?q=80&w=400&h=400&auto=format&fit=crop',
+        description: 'Colorful playful kitchen appliance.',
+        brand: 'Hay',
+        category: 'Kitchen',
+        price: 115.00,
+        countInStock: 10,
+        rating: 4.5,
+        numReviews: 28
+    },
+    {
+        name: 'Tekla Bath Towel',
+        image: 'https://images.unsplash.com/photo-1583947581924-860bda6a26df?q=80&w=400&h=400&auto=format&fit=crop',
+        description: 'Organic heavy-weight cotton towel.',
+        brand: 'Tekla',
+        category: 'Home',
+        price: 65.00,
+        countInStock: 30,
+        rating: 4.9,
+        numReviews: 150
     }
 ];
 
