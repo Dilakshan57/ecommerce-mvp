@@ -11,13 +11,15 @@ const ShopScreen = () => {
     const [error, setError] = useState(null);
 
     const { search } = useLocation();
-    const keyword = new URLSearchParams(search).get('keyword') || '';
+    const queryParams = new URLSearchParams(search);
+    const keyword = queryParams.get('keyword') || '';
+    const category = queryParams.get('category') || '';
 
     useEffect(() => {
         const fetchProducts = async () => {
             try {
                 setLoading(true);
-                const { data } = await axios.get(`/api/products?keyword=${keyword}`);
+                const { data } = await axios.get(`/api/products?keyword=${keyword}&category=${category}`);
                 setProducts(data);
                 setLoading(false);
             } catch (err) {
@@ -27,12 +29,12 @@ const ShopScreen = () => {
         };
 
         fetchProducts();
-    }, [keyword]);
+    }, [keyword, category]);
 
     return (
         <div style={{ minHeight: '80vh', paddingBottom: '50px' }}>
-            <h1 style={{ margin: '20px 0', fontSize: '2rem', fontWeight: '800', color: '#1a1a1a' }}>
-                {keyword ? `Search Results for "${keyword}"` : 'Store Catalog'}
+            <h1 style={{ margin: '20px 0', fontSize: '2.5rem', fontWeight: '800', color: '#1a1a1a', textTransform: 'capitalize' }}>
+                {category ? `${category} Collection` : keyword ? `Search Results for "${keyword}"` : 'Store Catalog'}
             </h1>
             {loading ? (
                 <Loader />
@@ -48,8 +50,9 @@ const ShopScreen = () => {
                         <Product key={product._id} product={product} />
                     ))}
                 </div>
-            )}
-        </div>
+            )
+            }
+        </div >
     );
 };
 

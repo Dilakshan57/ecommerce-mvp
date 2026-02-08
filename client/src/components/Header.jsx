@@ -19,10 +19,20 @@ const Header = () => {
                     <li>
                         <SearchBox />
                     </li>
-                    <li>
-                        <Link to='/shop' style={{ display: 'flex', alignItems: 'center' }}>
-                            <FaStore size={18} /> <span style={{ marginLeft: '5px' }}>Products</span>
-                        </Link>
+                    <li className='nav-item-dropdown'>
+                        <div className='dropdown-trigger'>
+                            <Link to='/shop' style={{ display: 'flex', alignItems: 'center' }}>
+                                <FaStore size={18} /> <span style={{ marginLeft: '5px' }}>Products</span>
+                            </Link>
+                        </div>
+                        <div className='category-dropdown-menu'>
+                            <Link to='/shop?category=Phone' className='category-dropdown-item'>Phone</Link>
+                            <Link to='/shop?category=Laptop' className='category-dropdown-item'>Laptop</Link>
+                            <Link to='/shop?category=headphone' className='category-dropdown-item'>headphone</Link>
+                            <Link to='/shop?category=TV %26 Home Theatre' className='category-dropdown-item'>TV & Home Theatre</Link>
+                            <Link to='/shop?category=Cameras' className='category-dropdown-item'>Cameras</Link>
+                            <Link to='/shop?category=Clothing' className='category-dropdown-item'>Clothing</Link>
+                        </div>
                     </li>
                     <li>
                         <Link to='/cart' style={{ display: 'flex', alignItems: 'center' }}>
