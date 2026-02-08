@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { useState, useContext } from 'react';
 import { FaShoppingCart, FaUser, FaStore, FaBars, FaTimes } from 'react-icons/fa';
 import AuthContext from '../context/AuthContext';
