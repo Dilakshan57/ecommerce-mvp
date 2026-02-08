@@ -35,7 +35,7 @@ const AppContent = () => {
   const isLightThemePage = isShopPage || isProductPage;
 
   return (
-    <div className={isLightThemePage ? 'light-theme' : ''}>
+    <div className={isLightThemePage ? 'light-theme' : 'dark-theme'}>
       <Header />
       <main className={`${isFullPage ? '' : 'container'} ${isLightThemePage ? 'light-theme' : ''}`} style={{ minHeight: '80vh' }}>
         <Routes>
