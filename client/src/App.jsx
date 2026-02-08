@@ -4,6 +4,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import HomeScreen from './screens/HomeScreen';
+import ShopScreen from './screens/ShopScreen';
 import ProductScreen from './screens/ProductScreen';
 import CartScreen from './screens/CartScreen';
 import LoginScreen from './screens/LoginScreen';
@@ -24,14 +25,17 @@ import { CartProvider } from './context/CartContext';
 
 const AppContent = () => {
   const location = useLocation();
+  const isLandingPage = location.pathname === '/';
   const isAuthPage = location.pathname === '/login' || location.pathname === '/register';
+  const isFullPage = isLandingPage || isAuthPage;
 
   return (
     <>
-      <Header />
-      <main className={isAuthPage ? '' : 'container'}>
+      {!isLandingPage && <Header />}
+      <main className={isFullPage ? '' : 'container'}>
         <Routes>
           <Route path='/' element={<HomeScreen />} />
+          <Route path='/shop' element={<ShopScreen />} />
           <Route path='/product/:id' element={<ProductScreen />} />
           <Route path='/cart/:id?' element={<CartScreen />} />
           <Route path='/login' element={<LoginScreen />} />
@@ -50,7 +54,7 @@ const AppContent = () => {
           <Route path='/admin/orderlist' element={<OrderListScreen />} />
         </Routes>
       </main>
-      <Footer />
+      {!isLandingPage && <Footer />}
       <ToastContainer />
     </>
   );

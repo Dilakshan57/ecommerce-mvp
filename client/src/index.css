@@ -312,6 +312,106 @@ footer {
   box-shadow: 0 0 0 3px rgba(0, 86, 179, 0.1);
 }
 
+/* Landing Page */
+.landing-wrapper {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+  /* Deep Matte Black */
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2000;
+  /* Over everything */
+  overflow: hidden;
+}
+
+.landing-content {
+  text-align: center;
+  color: #fff;
+  animation: fadeIn 2s ease-out;
+}
+
+.landing-logo {
+  font-size: 8rem;
+  font-weight: 900;
+  letter-spacing: -2px;
+  margin-bottom: 0.5rem;
+  background: linear-gradient(135deg, #fff 0%, #888 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: logoPulse 4s infinite ease-in-out;
+}
+
+.landing-tagline {
+  font-size: 1.5rem;
+  font-weight: 300;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #888;
+  margin-bottom: 2.5rem;
+}
+
+.btn-enter {
+  display: inline-block;
+  padding: 1.2rem 3.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #fff;
+  border: 1px solid #fff;
+  background: transparent;
+  border-radius: 50px;
+  transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+  cursor: pointer;
+}
+
+.btn-enter:hover {
+  background: #fff;
+  color: #000;
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(255, 255, 255, 0.2);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes logoPulse {
+
+  0%,
+  100% {
+    transform: scale(1);
+    filter: drop-shadow(0 0 0px rgba(255, 255, 255, 0));
+  }
+
+  50% {
+    transform: scale(1.05);
+    filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.3));
+  }
+}
+
+@media (max-width: 768px) {
+  .landing-logo {
+    font-size: 5rem;
+  }
+
+  .landing-tagline {
+    font-size: 1rem;
+  }
+}
+
 .rating {
   color: var(--accent-color);
   font-size: 0.8rem;
