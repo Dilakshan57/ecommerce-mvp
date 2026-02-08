@@ -55,28 +55,6 @@ const products = [
     "numReviews": 30
   },
   {
-    "name": "iPhone 15 Pro",
-    "image": "https://images.unsplash.com/photo-1695653422718-971ef53a479d?q=80&w=800&auto=format&fit=crop",
-    "description": "Aerospace-grade titanium design with A17 Pro chip.",
-    "brand": "Apple",
-    "category": "Phone",
-    "price": 999,
-    "countInStock": 20,
-    "rating": 4.8,
-    "numReviews": 300
-  },
-  {
-    "name": "Samsung Galaxy Z Fold6",
-    "image": "https://images.unsplash.com/photo-1643916930510-d017641d409f?q=80&w=800&auto=format&fit=crop",
-    "description": "The ultimate foldable for multitasking and productivity.",
-    "brand": "Samsung",
-    "category": "Phone",
-    "price": 1899.99,
-    "countInStock": 3,
-    "rating": 4.7,
-    "numReviews": 40
-  },
-  {
     "name": "Google Pixel 8a",
     "image": "https://images.unsplash.com/photo-1616348436168-de43ad0db179?q=80&w=800&auto=format&fit=crop",
     "description": "AI-powered camera in a compact, affordable design.",
@@ -108,17 +86,6 @@ const products = [
     "countInStock": 18,
     "rating": 4.4,
     "numReviews": 200
-  },
-  {
-    "name": "OnePlus Open",
-    "image": "https://images.unsplash.com/photo-1643916930510-d017641d409f?q=80&w=800&auto=format&fit=crop",
-    "description": "The thinnest foldable with Hasselblad camera.",
-    "brand": "OnePlus",
-    "category": "Phone",
-    "price": 1499,
-    "countInStock": 4,
-    "rating": 4.8,
-    "numReviews": 55
   },
   {
     "name": "Motorola Edge+ 2023",
@@ -163,17 +130,6 @@ const products = [
     "countInStock": 12,
     "rating": 4.6,
     "numReviews": 48
-  },
-  {
-    "name": "iPhone 13",
-    "image": "https://images.unsplash.com/photo-1634842100806-2581699f7d26?q=80&w=800&auto=format&fit=crop",
-    "description": "Super Retina XDR display and A15 Bionic.",
-    "brand": "Apple",
-    "category": "Phone",
-    "price": 599,
-    "countInStock": 40,
-    "rating": 4.7,
-    "numReviews": 800
   },
   {
     "name": "Samsung Galaxy S23 FE",
@@ -253,28 +209,6 @@ const products = [
     "numReviews": 320
   },
   {
-    "name": "Google Pixel Fold",
-    "image": "https://images.unsplash.com/photo-1643916930510-d017641d409f?q=80&w=800&auto=format&fit=crop",
-    "description": "The first foldable phone from Google.",
-    "brand": "Google",
-    "category": "Phone",
-    "price": 1799,
-    "countInStock": 5,
-    "rating": 4.4,
-    "numReviews": 12
-  },
-  {
-    "name": "MacBook Pro 14\" M3 Max",
-    "image": "https://images.unsplash.com/photo-1517336714460-45fd82a1761d?q=80&w=800&auto=format&fit=crop",
-    "description": "Liquid Retina XDR display, up to 128GB unified memory.",
-    "brand": "Apple",
-    "category": "Laptop",
-    "price": 3199,
-    "countInStock": 5,
-    "rating": 5,
-    "numReviews": 15
-  },
-  {
     "name": "Dell XPS 13 Plus",
     "image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?q=80&w=800&auto=format&fit=crop",
     "description": "Fitted with a gorgeous 3.5K OLED touchscreen.",
@@ -284,17 +218,6 @@ const products = [
     "countInStock": 10,
     "rating": 4.7,
     "numReviews": 88
-  },
-  {
-    "name": "HP Spectre x360 14",
-    "image": "https://images.unsplash.com/photo-1544006659-f0b21884cb1d?q=80&w=800&auto=format&fit=crop",
-    "description": "World-class 2-in-1 with stunning OLED and AI.",
-    "brand": "HP",
-    "category": "Laptop",
-    "price": 1599.99,
-    "countInStock": 12,
-    "rating": 4.8,
-    "numReviews": 45
   },
   {
     "name": "Lenovo Yoga Pro 9i",
@@ -341,17 +264,6 @@ const products = [
     "numReviews": 50
   },
   {
-    "name": "MacBook Air 13\" M3",
-    "image": "https://images.unsplash.com/photo-1517336714460-45fd82a1761d?q=80&w=800&auto=format&fit=crop",
-    "description": "Thin, light, and powerful with 18 hours of battery.",
-    "brand": "Apple",
-    "category": "Laptop",
-    "price": 1099,
-    "countInStock": 25,
-    "rating": 4.9,
-    "numReviews": 240
-  },
-  {
     "name": "Dell Inspiron 14 Plus",
     "image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?q=80&w=800&auto=format&fit=crop",
     "description": "Sustainable design meets Snapdragon X Plus power.",
@@ -361,17 +273,6 @@ const products = [
     "countInStock": 18,
     "rating": 4.5,
     "numReviews": 60
-  },
-  {
-    "name": "HP Omen Transcend 14",
-    "image": "https://images.unsplash.com/photo-1544006659-f0b21884cb1d?q=80&w=800&auto=format&fit=crop",
-    "description": "Gaming grade performance in a sophisticated shell.",
-    "brand": "HP",
-    "category": "Laptop",
-    "price": 1499.99,
-    "countInStock": 7,
-    "rating": 4.6,
-    "numReviews": 38
   },
   {
     "name": "LG Gram 17\"",
@@ -418,17 +319,6 @@ const products = [
     "numReviews": 300
   },
   {
-    "name": "ASUS Vivobook S 16",
-    "image": "https://images.unsplash.com/photo-1517336714460-45fd82a1761d?q=80&w=800&auto=format&fit=crop",
-    "description": "Stylish OLED performance for students and creators.",
-    "brand": "ASUS",
-    "category": "Laptop",
-    "price": 999,
-    "countInStock": 15,
-    "rating": 4.6,
-    "numReviews": 55
-  },
-  {
     "name": "Framework Laptop 13",
     "image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?q=80&w=800&auto=format&fit=crop",
     "description": "Fully repairable and upgradable modular laptop.",
@@ -462,17 +352,6 @@ const products = [
     "numReviews": 18
   },
   {
-    "name": "HP Dragonfly G4",
-    "image": "https://images.unsplash.com/photo-1544006659-f0b21884cb1d?q=80&w=800&auto=format&fit=crop",
-    "description": "The gold standard for executive ultraportables.",
-    "brand": "HP",
-    "category": "Laptop",
-    "price": 1899,
-    "countInStock": 6,
-    "rating": 4.8,
-    "numReviews": 30
-  },
-  {
     "name": "Lenovo IdeaPad Slim 5",
     "image": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?q=80&w=800&auto=format&fit=crop",
     "description": "Reliable daily driver with modern design.",
@@ -493,17 +372,6 @@ const products = [
     "countInStock": 5,
     "rating": 4.9,
     "numReviews": 22
-  },
-  {
-    "name": "Samsung Galaxy Book4 Pro 360",
-    "image": "https://images.unsplash.com/photo-1517336714460-45fd82a1761d?q=80&w=800&auto=format&fit=crop",
-    "description": "Stunning 2-in-1 with S Pen and 3K AMOLED.",
-    "brand": "Samsung",
-    "category": "Laptop",
-    "price": 1799,
-    "countInStock": 7,
-    "rating": 4.7,
-    "numReviews": 40
   },
   {
     "name": "Acer Chromebook Spin 714",
