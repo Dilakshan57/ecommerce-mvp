@@ -31,7 +31,7 @@ const LoginScreen = () => {
     };
 
     return (
-        <div className='auth-page-wrapper light-theme'>
+        <div className='auth-page-wrapper'>
             <div className='auth-form-container'>
                 <h1>Sign In</h1>
                 {error && <Message variant='danger'>{error}</Message>}

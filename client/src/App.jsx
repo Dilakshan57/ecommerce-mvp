@@ -32,7 +32,7 @@ const AppContent = () => {
   const isFullPage = isLandingPage || isAuthPage;
 
   // Apply light theme only to specific pages as requested by user
-  const isLightThemePage = isShopPage || isProductPage || location.pathname === '/register' || location.pathname === '/login';
+  const isLightThemePage = isShopPage || isProductPage;
 
   return (
     <div className={isLightThemePage ? 'light-theme' : ''}>
