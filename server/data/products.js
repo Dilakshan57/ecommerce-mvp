@@ -429,17 +429,6 @@ const products = [
     "numReviews": 500
   },
   {
-    "name": "Sennheiser Momentum 4",
-    "image": "https://images.unsplash.com/photo-1583394838336-31835703f831?q=80&w=800&auto=format&fit=crop",
-    "description": "Audiophile-inspired sound and 60-hour battery life.",
-    "brand": "Sennheiser",
-    "category": "headphone",
-    "price": 349.95,
-    "countInStock": 10,
-    "rating": 4.6,
-    "numReviews": 80
-  },
-  {
     "name": "JBL Tour One M2",
     "image": "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?q=80&w=800&auto=format&fit=crop",
     "description": "True Adaptive Noise Cancelling and Smart Ambient.",
@@ -462,28 +451,6 @@ const products = [
     "numReviews": 210
   },
   {
-    "name": "Skullcandy Crusher ANC 2",
-    "image": "https://images.unsplash.com/photo-115167667210-4828f3a3a14e?q=80&w=800&auto=format&fit=crop",
-    "description": "Sensory Bass that you can feel in your soul.",
-    "brand": "Skullcandy",
-    "category": "headphone",
-    "price": 239.99,
-    "countInStock": 12,
-    "rating": 4.5,
-    "numReviews": 65
-  },
-  {
-    "name": "Sony WH-CH720N",
-    "image": "https://images.unsplash.com/photo-1151367461989-f85a21fda167?q=80&w=800&auto=format&fit=crop",
-    "description": "Lightweight noise canceling headphones for all-day comfort.",
-    "brand": "Sony",
-    "category": "headphone",
-    "price": 149.99,
-    "countInStock": 50,
-    "rating": 4.3,
-    "numReviews": 180
-  },
-  {
     "name": "Anker Soundcore Space Q45",
     "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=800&auto=format&fit=crop",
     "description": "Reduce noise by up to 98% with ultra-wide ANC.",
@@ -493,17 +460,6 @@ const products = [
     "countInStock": 40,
     "rating": 4.6,
     "numReviews": 900
-  },
-  {
-    "name": "Bowers & Wilkins Px7 S2e",
-    "image": "https://images.unsplash.com/photo-11546435770-a3e426bf472b?q=80&w=800&auto=format&fit=crop",
-    "description": "Exceptional wireless sound with premium build quality.",
-    "brand": "B&W",
-    "category": "headphone",
-    "price": 399,
-    "countInStock": 5,
-    "rating": 4.8,
-    "numReviews": 22
   },
   {
     "name": "Technics EAH-AZ80",
@@ -517,28 +473,6 @@ const products = [
     "numReviews": 45
   },
   {
-    "name": "Apple AirPods Pro (2nd Gen)",
-    "image": "https://images.unsplash.com/photo-115883394838336-31835703f831?q=80&w=800&auto=format&fit=crop",
-    "description": "The gold standard for noise canceling earbuds.",
-    "brand": "Apple",
-    "category": "headphone",
-    "price": 249,
-    "countInStock": 100,
-    "rating": 4.9,
-    "numReviews": 2500
-  },
-  {
-    "name": "Sony WF-1000XM5",
-    "image": "https://images.unsplash.com/photo-11590658268037-6bf12165a8df?q=80&w=800&auto=format&fit=crop",
-    "description": "The best noise canceling true wireless earbuds.",
-    "brand": "Sony",
-    "category": "headphone",
-    "price": 299.99,
-    "countInStock": 35,
-    "rating": 4.8,
-    "numReviews": 400
-  },
-  {
     "name": "Google Pixel Buds Pro 2",
     "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=800&auto=format&fit=crop",
     "description": "Google AI powers the best sounding Pixel Buds ever.",
@@ -550,17 +484,6 @@ const products = [
     "numReviews": 120
   },
   {
-    "name": "Samsung Galaxy Buds3 Pro",
-    "image": "https://images.unsplash.com/photo-11613040809024-b4ef7ba99bc3?q=80&w=800&auto=format&fit=crop",
-    "description": "Iconic blade design with studio-quality audio.",
-    "brand": "Samsung",
-    "category": "headphone",
-    "price": 249.99,
-    "countInStock": 45,
-    "rating": 4.6,
-    "numReviews": 310
-  },
-  {
     "name": "Jabara Elite 10 (Gen 2)",
     "image": "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?q=80&w=800&auto=format&fit=crop",
     "description": "The world's first LE Audio smart case for spatial sound.",
@@ -570,17 +493,6 @@ const products = [
     "countInStock": 18,
     "rating": 4.7,
     "numReviews": 55
-  },
-  {
-    "name": "Master & Dynamic MH40",
-    "image": "https://images.unsplash.com/photo-11546435770-a3e426bf472b?q=80&w=800&auto=format&fit=crop",
-    "description": "Engineered for decades of use with premium leather.",
-    "brand": "M&D",
-    "category": "headphone",
-    "price": 299,
-    "countInStock": 8,
-    "rating": 4.8,
-    "numReviews": 19
   },
   {
     "name": "Nothing Ear (a)",
@@ -616,17 +528,6 @@ const products = [
     "numReviews": 3200
   },
   {
-    "name": "Sennheiser Accentum Plus",
-    "image": "https://images.unsplash.com/photo-1583394838336-31835703f831?q=80&w=800&auto=format&fit=crop",
-    "description": "Unmatched 50-hour battery life with hybrid ANC.",
-    "brand": "Sennheiser",
-    "category": "headphone",
-    "price": 229.95,
-    "countInStock": 15,
-    "rating": 4.4,
-    "numReviews": 75
-  },
-  {
     "name": "Final Audio UX3000",
     "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=800&auto=format&fit=crop",
     "description": "Precise audiophile sound in a wireless ANC format.",
@@ -647,17 +548,6 @@ const products = [
     "countInStock": 12,
     "rating": 4.5,
     "numReviews": 130
-  },
-  {
-    "name": "Skullcandy Mod True Wireless",
-    "image": "https://images.unsplash.com/photo-11590658268037-6bf12165a8df?q=80&w=800&auto=format&fit=crop",
-    "description": "Multipoint pairing and clear voice smart mic.",
-    "brand": "Skullcandy",
-    "category": "headphone",
-    "price": 59.99,
-    "countInStock": 80,
-    "rating": 4,
-    "numReviews": 210
   },
   {
     "name": "Sony Alpha a1 II",
@@ -715,17 +605,6 @@ const products = [
     "numReviews": 130
   },
   {
-    "name": "Leica SL3",
-    "image": "https://images.unsplash.com/photo-1500647146524-7431e779a187?q=80&w=800&auto=format&fit=crop",
-    "description": "The pinnacle of German engineering and optical excellence.",
-    "brand": "Leica",
-    "category": "Cameras",
-    "price": 6995,
-    "countInStock": 1,
-    "rating": 4.9,
-    "numReviews": 8
-  },
-  {
     "name": "Sony Alpha 7CR",
     "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?q=80&w=800&auto=format&fit=crop",
     "description": "61MP resolution in an incredibly compact full-frame body.",
@@ -779,17 +658,6 @@ const products = [
     "countInStock": 15,
     "rating": 4.6,
     "numReviews": 210
-  },
-  {
-    "name": "GoPro HERO13 Black",
-    "image": "https://images.unsplash.com/photo-1500647146524-7431e779a187?q=80&w=800&auto=format&fit=crop",
-    "description": "Next-level stabilization and HDR video for any action.",
-    "brand": "GoPro",
-    "category": "Cameras",
-    "price": 399.99,
-    "countInStock": 30,
-    "rating": 4.7,
-    "numReviews": 1200
   },
   {
     "name": "DJI Osmo Pocket 3",
@@ -858,17 +726,6 @@ const products = [
     "numReviews": 32
   },
   {
-    "name": "Insta360 X4",
-    "image": "https://images.unsplash.com/photo-1500647146524-7431e779a187?q=80&w=800&auto=format&fit=crop",
-    "description": "Shoot first, point later with incredible 8K 360 video.",
-    "brand": "Insta360",
-    "category": "Cameras",
-    "price": 499.99,
-    "countInStock": 25,
-    "rating": 4.6,
-    "numReviews": 240
-  },
-  {
     "name": "Sony Alpha 7S III",
     "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?q=80&w=800&auto=format&fit=crop",
     "description": "The low-light video king for professional cinematographers.",
@@ -924,28 +781,6 @@ const products = [
     "numReviews": 18
   },
   {
-    "name": "Nike Tech Fleece Hoodie",
-    "image": "https://images.unsplash.com/photo-1523381235212-d73f4138fc45?q=80&w=800&auto=format&fit=crop",
-    "description": "Lightweight warmth with a premium tailored look.",
-    "brand": "Nike",
-    "category": "Clothing",
-    "price": 130,
-    "countInStock": 40,
-    "rating": 4.8,
-    "numReviews": 1500
-  },
-  {
-    "name": "Arc'teryx Alpha SV Jacket",
-    "image": "https://images.unsplash.com/photo-1544923246-77307dd654ca?q=80&w=800&auto=format&fit=crop",
-    "description": "Our most durable GORE-TEX shell for severe conditions.",
-    "brand": "Arc'teryx",
-    "category": "Clothing",
-    "price": 900,
-    "countInStock": 5,
-    "rating": 4.9,
-    "numReviews": 300
-  },
-  {
     "name": "Stone Island Soft Shell-R",
     "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=800&auto=format&fit=crop",
     "description": "Hooded jacket in a 2-ply high-performance material.",
@@ -955,17 +790,6 @@ const products = [
     "countInStock": 8,
     "rating": 4.7,
     "numReviews": 95
-  },
-  {
-    "name": "The North Face 1996 Nuptse",
-    "image": "https://images.unsplash.com/photo-1539533377285-b0bd57f7096a?q=80&w=800&auto=format&fit=crop",
-    "description": "The iconic puffer jacket with 700-fill down.",
-    "brand": "The North Face",
-    "category": "Clothing",
-    "price": 330,
-    "countInStock": 25,
-    "rating": 4.8,
-    "numReviews": 2400
   },
   {
     "name": "Lululemon ABC Jogger",
@@ -990,50 +814,6 @@ const products = [
     "numReviews": 600
   },
   {
-    "name": "Acronym J1L-GT Jacket",
-    "image": "https://images.unsplash.com/photo-1544923246-77307dd654ca?q=80&w=800&auto=format&fit=crop",
-    "description": "The definitive techwear piece with Interops system.",
-    "brand": "Acronym",
-    "category": "Clothing",
-    "price": 2400,
-    "countInStock": 2,
-    "rating": 5,
-    "numReviews": 12
-  },
-  {
-    "name": "Nike ACG Smith Summit Pant",
-    "image": "https://images.unsplash.com/photo-11515886657613-9f3515b0c78f?q=80&w=800&auto=format&fit=crop",
-    "description": "Convertible cargo pants for rugged outdoor exploration.",
-    "brand": "Nike",
-    "category": "Clothing",
-    "price": 190,
-    "countInStock": 20,
-    "rating": 4.7,
-    "numReviews": 320
-  },
-  {
-    "name": "Moncler Maya Short Down",
-    "image": "https://images.unsplash.com/photo-1539533377285-b0bd57f7096a?q=80&w=800&auto=format&fit=crop",
-    "description": "The classic Moncler aesthetic with shiny nylon.",
-    "brand": "Moncler",
-    "category": "Clothing",
-    "price": 1850,
-    "countInStock": 4,
-    "rating": 4.8,
-    "numReviews": 150
-  },
-  {
-    "name": "Patagonia Better Sweater",
-    "image": "https://images.unsplash.com/photo-1523381235212-d73f4138fc45?q=80&w=800&auto=format&fit=crop",
-    "description": "Warm, low-bulk full-zip jacket for casual wear.",
-    "brand": "Patagonia",
-    "category": "Clothing",
-    "price": 159,
-    "countInStock": 50,
-    "rating": 4.7,
-    "numReviews": 3000
-  },
-  {
     "name": "Stone Island Cargo Shorts",
     "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=800&auto=format&fit=crop",
     "description": "Garment-stretching cotton shorts with iconic badge.",
@@ -1056,17 +836,6 @@ const products = [
     "numReviews": 500
   },
   {
-    "name": "Nike Tech Fleece Jogger",
-    "image": "https://images.unsplash.com/photo-1523381235212-d73f4138fc45?q=80&w=800&auto=format&fit=crop",
-    "description": "The perfect companion for the Tech Fleece hoodie.",
-    "brand": "Nike",
-    "category": "Clothing",
-    "price": 110,
-    "countInStock": 60,
-    "rating": 4.7,
-    "numReviews": 2800
-  },
-  {
     "name": "C.P. Company Goggle Jacket",
     "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=800&auto=format&fit=crop",
     "description": "Original goggle hood design with Chrome-R tech.",
@@ -1076,17 +845,6 @@ const products = [
     "countInStock": 6,
     "rating": 4.6,
     "numReviews": 38
-  },
-  {
-    "name": "The North Face Denali 2",
-    "image": "https://images.unsplash.com/photo-1539533377285-b0bd57f7096a?q=80&w=800&auto=format&fit=crop",
-    "description": "The classic recycled-fleece jacket for extra warmth.",
-    "brand": "The North Face",
-    "category": "Clothing",
-    "price": 180,
-    "countInStock": 30,
-    "rating": 4.5,
-    "numReviews": 1200
   },
   {
     "name": "Lululemon Metal Vent Tech",
@@ -1133,17 +891,6 @@ const products = [
     "numReviews": 700
   },
   {
-    "name": "Riot Division M65 Jacket",
-    "image": "https://images.unsplash.com/photo-1544923246-77307dd654ca?q=80&w=800&auto=format&fit=crop",
-    "description": "Transformer jacket with modular pocket systems.",
-    "brand": "Riot Division",
-    "category": "Clothing",
-    "price": 245,
-    "countInStock": 15,
-    "rating": 4.5,
-    "numReviews": 110
-  },
-  {
     "name": "Stone Island Sweatshirt",
     "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=800&auto=format&fit=crop",
     "description": "Simple, premium cotton crewneck with badge.",
@@ -1153,17 +900,6 @@ const products = [
     "countInStock": 20,
     "rating": 4.7,
     "numReviews": 180
-  },
-  {
-    "name": "The North Face Venture 2",
-    "image": "https://images.unsplash.com/photo-1539533377285-b0bd57f7096a?q=80&w=800&auto=format&fit=crop",
-    "description": "The ultimate packable rain shell for hikers.",
-    "brand": "The North Face",
-    "category": "Clothing",
-    "price": 110,
-    "countInStock": 45,
-    "rating": 4.4,
-    "numReviews": 1500
   },
   {
     "name": "Nike Tech Woven Pant",
@@ -1177,15 +913,224 @@ const products = [
     "numReviews": 320
   },
   {
-    "name": "Arc'teryx Mantis 26 Backpack",
-    "image": "https://images.unsplash.com/photo-1544923246-77307dd654ca?q=80&w=800&auto=format&fit=crop",
-    "description": "Versatile daypack with organized accessibility.",
+    "name": "Sony Alpha 7R IV",
+    "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?q=80&w=800&auto=format&fit=crop",
+    "description": "61.0MP full-frame mirrorless for extreme detail.",
+    "brand": "Sony",
+    "category": "Cameras",
+    "price": 3199.99,
+    "countInStock": 5,
+    "rating": 4.9,
+    "numReviews": 85
+  },
+  {
+    "name": "Canon EOS R7",
+    "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?q=80&w=800&auto=format&fit=crop",
+    "description": "High-speed APS-C mirrorless with 32.5MP and 30fps.",
+    "brand": "Canon",
+    "category": "Cameras",
+    "price": 1499,
+    "countInStock": 10,
+    "rating": 4.8,
+    "numReviews": 120
+  },
+  {
+    "name": "Nikon Z6 II",
+    "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?q=80&w=800&auto=format&fit=crop",
+    "description": "A versatile full-frame workhorse with dual processors.",
+    "brand": "Nikon",
+    "category": "Cameras",
+    "price": 1999.95,
+    "countInStock": 8,
+    "rating": 4.7,
+    "numReviews": 210
+  },
+  {
+    "name": "Fujifilm X-S20",
+    "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?q=80&w=800&auto=format&fit=crop",
+    "description": "The ultimate compact hybrid for creators and vloggers.",
+    "brand": "Fujifilm",
+    "category": "Cameras",
+    "price": 1299.99,
+    "countInStock": 12,
+    "rating": 4.8,
+    "numReviews": 45
+  },
+  {
+    "name": "Panasonic Lumix S9",
+    "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?q=80&w=800&auto=format&fit=crop",
+    "description": "Ultra-lightweight full-frame camera for social creators.",
+    "brand": "Panasonic",
+    "category": "Cameras",
+    "price": 1499,
+    "countInStock": 6,
+    "rating": 4.6,
+    "numReviews": 32
+  },
+  {
+    "name": "Sony Alpha 7 IV",
+    "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?q=80&w=800&auto=format&fit=crop",
+    "description": "The hybrid standard with 33MP and next-gen autofocus.",
+    "brand": "Sony",
+    "category": "Cameras",
+    "price": 2499.99,
+    "countInStock": 15,
+    "rating": 4.9,
+    "numReviews": 450
+  },
+  {
+    "name": "Canon EOS R100",
+    "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?q=80&w=800&auto=format&fit=crop",
+    "description": "Small, light, and easy to use mirrorless for beginners.",
+    "brand": "Canon",
+    "category": "Cameras",
+    "price": 479.99,
+    "countInStock": 20,
+    "rating": 4.4,
+    "numReviews": 85
+  },
+  {
+    "name": "Insta360 Ace Pro 2",
+    "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?q=80&w=800&auto=format&fit=crop",
+    "description": "Co-engineered with Leica for stunning 8K action video.",
+    "brand": "Insta360",
+    "category": "Cameras",
+    "price": 399.99,
+    "countInStock": 25,
+    "rating": 4.7,
+    "numReviews": 110
+  },
+  {
+    "name": "DJI Action 5 Pro",
+    "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?q=80&w=800&auto=format&fit=crop",
+    "description": "Industry-leading low-light performance and runtime.",
+    "brand": "DJI",
+    "category": "Cameras",
+    "price": 349,
+    "countInStock": 30,
+    "rating": 4.8,
+    "numReviews": 150
+  },
+  {
+    "name": "Ricoh GR III Premium",
+    "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?q=80&w=800&auto=format&fit=crop",
+    "description": "The ultimate snap shooter with a fast 28mm lens.",
+    "brand": "Ricoh",
+    "category": "Cameras",
+    "price": 999,
+    "countInStock": 4,
+    "rating": 4.9,
+    "numReviews": 280
+  },
+  {
+    "name": "Nike Sportswear Storm-FIT ADV",
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=800&auto=format&fit=crop",
+    "description": "Maximum protection with GORE-TEX and down insulation.",
+    "brand": "Nike",
+    "category": "Clothing",
+    "price": 450,
+    "countInStock": 10,
+    "rating": 4.9,
+    "numReviews": 45
+  },
+  {
+    "name": "Arc'teryx Beta LT Jacket",
+    "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=800&auto=format&fit=crop",
+    "description": "Versatile all-mountain performance with GORE-TEX.",
     "brand": "Arc'teryx",
     "category": "Clothing",
-    "price": 160,
-    "countInStock": 15,
+    "price": 450,
+    "countInStock": 12,
     "rating": 4.8,
-    "numReviews": 600
+    "numReviews": 350
+  },
+  {
+    "name": "The North Face Himalayan Down",
+    "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=800&auto=format&fit=crop",
+    "description": "Heavyweight warmth inspired by the highest peaks.",
+    "brand": "The North Face",
+    "category": "Clothing",
+    "price": 380,
+    "countInStock": 8,
+    "rating": 4.7,
+    "numReviews": 120
+  },
+  {
+    "name": "Lululemon City Sweat Hoodie",
+    "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=800&auto=format&fit=crop",
+    "description": "Breathable French Terry for post-workout luxury.",
+    "brand": "Lululemon",
+    "category": "Clothing",
+    "price": 118,
+    "countInStock": 20,
+    "rating": 4.8,
+    "numReviews": 850
+  },
+  {
+    "name": "Adidas MyShelter Rain Jacket",
+    "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=800&auto=format&fit=crop",
+    "description": "Advanced weatherproofing with urban design features.",
+    "brand": "Adidas",
+    "category": "Clothing",
+    "price": 230,
+    "countInStock": 15,
+    "rating": 4.5,
+    "numReviews": 95
+  },
+  {
+    "name": "Stone Island Nylon Metal Jacket",
+    "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=800&auto=format&fit=crop",
+    "description": "Iconic metallic sheen with garment-dyed finish.",
+    "brand": "Stone Island",
+    "category": "Clothing",
+    "price": 850,
+    "countInStock": 5,
+    "rating": 4.9,
+    "numReviews": 20
+  },
+  {
+    "name": "Patagonia Nano Puff Jacket",
+    "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=800&auto=format&fit=crop",
+    "description": "Warm, windproof, water-resistant withPrimaLoft Gold.",
+    "brand": "Patagonia",
+    "category": "Clothing",
+    "price": 239,
+    "countInStock": 25,
+    "rating": 4.8,
+    "numReviews": 1500
+  },
+  {
+    "name": "Nike Tech Fleece Full-Zip (2025)",
+    "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=800&auto=format&fit=crop",
+    "description": "Modern warmth in a streamlined, premium profile.",
+    "brand": "Nike",
+    "category": "Clothing",
+    "price": 135,
+    "countInStock": 30,
+    "rating": 4.7,
+    "numReviews": 450
+  },
+  {
+    "name": "Arc'teryx Atom Hoody",
+    "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=800&auto=format&fit=crop",
+    "description": "Synthetic insulation piece for every activity.",
+    "brand": "Arc'teryx",
+    "category": "Clothing",
+    "price": 300,
+    "countInStock": 12,
+    "rating": 4.9,
+    "numReviews": 2100
+  },
+  {
+    "name": "TNF 1994 Retro Mountain Light",
+    "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=800&auto=format&fit=crop",
+    "description": "The cult classic shell with Futurelight technology.",
+    "brand": "The North Face",
+    "category": "Clothing",
+    "price": 350,
+    "countInStock": 7,
+    "rating": 4.8,
+    "numReviews": 95
   }
 ];
 
