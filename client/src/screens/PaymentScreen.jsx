@@ -21,32 +21,33 @@ const PaymentScreen = () => {
     };
 
     return (
-        <FormContainer>
-            <CheckoutSteps step1 step2 step3 />
-            <h1>Payment Method</h1>
-            <form onSubmit={submitHandler}>
-                <div className='form-group'>
-                    <label as='legend'>Select Method</label>
-                    <div className='col'>
-                        <div style={{ marginBottom: '10px' }}>
-                            <input
-                                type='radio'
-                                id='Stripe'
-                                name='paymentMethod'
-                                value='Stripe'
-                                checked
-                                onChange={(e) => setPaymentMethod(e.target.value)}
-                            />
-                            <label htmlFor='Stripe' style={{ marginLeft: '10px' }}>Stripe or Credit Card</label>
+        <div className='checkout-page-wrapper'>
+            <div className='auth-form-container'>
+                <CheckoutSteps step1 step2 step3 />
+                <h1 style={{ color: '#fff' }}>Payment Method</h1>
+                <form onSubmit={submitHandler}>
+                    <div className='form-group'>
+                        <label as='legend' style={{ color: '#fff' }}>Select Method</label>
+                        <div className='col'>
+                            <div style={{ marginBottom: '10px', color: '#fff' }}>
+                                <input
+                                    type='radio'
+                                    id='Stripe'
+                                    name='paymentMethod'
+                                    value='Stripe'
+                                    checked
+                                    onChange={(e) => setPaymentMethod(e.target.value)}
+                                />
+                                <label htmlFor='Stripe' style={{ marginLeft: '10px', color: '#fff' }}>Stripe or Credit Card</label>
+                            </div>
                         </div>
-                        {/* Add PayPal or others here if needed */}
                     </div>
-                </div>
-                <button type='submit' className='btn btn-block'>
-                    Continue
-                </button>
-            </form>
-        </FormContainer>
+                    <button type='submit' className='btn btn-block'>
+                        Continue
+                    </button>
+                </form>
+            </div>
+        </div>
     );
 };
 
