@@ -31,7 +31,7 @@ const AppContent = () => {
 
   return (
     <>
-      {!isLandingPage && <Header />}
+      <Header />
       <main className={isFullPage ? '' : 'container'}>
         <Routes>
           <Route path='/' element={<HomeScreen />} />
@@ -54,7 +54,7 @@ const AppContent = () => {
           <Route path='/admin/orderlist' element={<OrderListScreen />} />
         </Routes>
       </main>
-      {!isLandingPage && <Footer />}
+      <Footer />
       <ToastContainer />
     </>
   );

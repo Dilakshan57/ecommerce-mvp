@@ -114,14 +114,16 @@ nav ul {
 
 /* Card */
 .card {
-  background: var(--matte-black-gloss);
+  background: #fff;
   padding: 15px;
   margin: 10px 0;
   border-radius: 12px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
   overflow: hidden;
-  border: 1px solid #333;
+  border: 1px solid #ddd;
+  color: #333;
+  /* Dark text for white card */
 }
 
 .card:hover {
@@ -146,7 +148,16 @@ nav ul {
   transition: all 0.3s ease;
   font-size: 0.9rem !important;
   font-weight: 600;
-  color: #fff;
+  color: #222;
+}
+
+.product-detail-img {
+  width: 30%;
+  height: 50vh;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+  border-radius: 15px;
 }
 
 .card:hover .card-title {
@@ -315,18 +326,16 @@ footer {
 
 /* Landing Page */
 .landing-wrapper {
-  height: 100vh;
-  width: 100vw;
+  min-height: 80vh;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #000;
+  background: var(--bg-color);
   /* Deep Matte Black */
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 2000;
-  /* Over everything */
+  position: relative;
+  z-index: 1000;
+  /* Under Header */
   overflow: hidden;
 }
 
