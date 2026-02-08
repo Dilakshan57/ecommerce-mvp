@@ -19,7 +19,7 @@ const ShopScreen = () => {
         const fetchProducts = async () => {
             try {
                 setLoading(true);
-                const { data } = await axios.get(`/api/products?keyword=${keyword}&category=${category}`);
+                const { data } = await axios.get(`/api/products?keyword=${encodeURIComponent(keyword)}&category=${encodeURIComponent(category)}`);
                 setProducts(data);
                 setLoading(false);
             } catch (err) {
