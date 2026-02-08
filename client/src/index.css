@@ -258,8 +258,8 @@ footer {
   width: 50%;
   max-width: 800px;
   margin-top: 10vh;
-  background: rgba(0, 0, 0, 0.7);
-  backdrop-filter: blur(15px);
+  background: transparent !important;
+  backdrop-filter: blur(5px);
   padding: 3rem;
   border-radius: 20px;
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.8);
