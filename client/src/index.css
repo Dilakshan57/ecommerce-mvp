@@ -263,13 +263,13 @@ footer {
   padding: 3rem;
   border-radius: 20px;
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.8);
-  border: 1px solid rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   color: #fff;
 }
 
 .light-theme .auth-form-container {
-  background: #fff !important;
-  border: 1px solid #ddd;
+  background: transparent !important;
+  border: 1px solid rgba(0, 0, 0, 0.1);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   color: #1a1a1a;
 }
