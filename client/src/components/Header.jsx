@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useState, useContext } from 'react';
-import { FaShoppingCart, FaUser, FaStore, FaBars, FaTimes } from 'react-icons/fa';
+import { FaShoppingCart, FaUser, FaStore, FaBars, FaTimes, FaChevronDown, FaChevronUp } from 'react-icons/fa';
 import AuthContext from '../context/AuthContext';
 import CartContext from '../context/CartContext';
 import SearchBox from './SearchBox';
@@ -10,8 +10,18 @@ const Header = () => {
     const { cartItems } = useContext(CartContext);
 
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const [isCategoriesOpen, setIsCategoriesOpen] = useState(false);
 
-    const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
+    const toggleMenu = () => {
+        setIsMenuOpen(!isMenuOpen);
+        if (isMenuOpen) setIsCategoriesOpen(false); // Reset sub-menu when closing main menu
+    };
+
+    const toggleCategories = (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        setIsCategoriesOpen(!isCategoriesOpen);
+    };
 
     return (
         <header>
@@ -29,12 +39,15 @@ const Header = () => {
                         <SearchBox />
                     </li>
                     <li className='nav-item-dropdown'>
-                        <div className='dropdown-trigger'>
+                        <div className='dropdown-trigger' style={{ display: 'flex', alignItems: 'center' }}>
                             <Link to='/shop' onClick={() => setIsMenuOpen(false)} style={{ display: 'flex', alignItems: 'center' }}>
                                 <FaStore size={18} /> <span style={{ marginLeft: '5px' }}>Products</span>
                             </Link>
+                            <span className='mobile-arrow-toggle' onClick={toggleCategories} style={{ marginLeft: '10px', cursor: 'pointer', display: 'none' }}>
+                                {isCategoriesOpen ? <FaChevronUp size={14} /> : <FaChevronDown size={14} />}
+                            </span>
                         </div>
-                        <div className='category-dropdown-menu'>
+                        <div className={`category-dropdown-menu ${isCategoriesOpen ? 'mobile-open' : ''}`}>
                             <Link to='/shop?category=Phone' onClick={() => setIsMenuOpen(false)} className='category-dropdown-item'>Phone</Link>
                             <Link to='/shop?category=Laptop' onClick={() => setIsMenuOpen(false)} className='category-dropdown-item'>Laptop</Link>
                             <Link to='/shop?category=headphone' onClick={() => setIsMenuOpen(false)} className='category-dropdown-item'>headphone</Link>

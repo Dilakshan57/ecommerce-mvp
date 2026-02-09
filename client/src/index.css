@@ -607,12 +607,33 @@ footer {
 
   .nav-item-dropdown:hover .category-dropdown-menu {
     position: static;
-    display: block;
+    display: none;
+    /* Hide hover menu on mobile */
     background: #111;
     box-shadow: none;
     border: none;
     margin-top: 10px;
   }
+
+  .nav-item-dropdown .category-dropdown-menu.mobile-open {
+    display: block !important;
+  }
+
+  .mobile-arrow-toggle {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+  }
+
+  .category-dropdown-item {
+    padding: 10px 0 !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  }
+
 
   /* Mobile Product Screen Image Resizing */
   .product-layout-refinement {
