@@ -19,6 +19,7 @@ import UserEditScreen from './screens/UserEditScreen';
 import ProductListScreen from './screens/ProductListScreen';
 import ProductEditScreen from './screens/ProductEditScreen';
 import OrderListScreen from './screens/OrderListScreen';
+import MobileCategoryNav from './components/MobileCategoryNav';
 
 import { AuthProvider } from './context/AuthContext';
 import { CartProvider } from './context/CartContext';
@@ -60,6 +61,7 @@ const AppContent = () => {
         </Routes>
       </main>
       <Footer />
+      <MobileCategoryNav />
       <ToastContainer />
     </div>
   );
